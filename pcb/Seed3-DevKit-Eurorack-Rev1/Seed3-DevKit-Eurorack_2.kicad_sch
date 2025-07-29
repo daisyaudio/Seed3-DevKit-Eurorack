@@ -6841,7 +6841,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:TOGGLE_SILK_PIP3"
+		(property "Footprint" "parts-for-kicad:TOGGLE_ON_OFF_ON_SILK"
 			(at 88.9 80.01 0)
 			(effects
 				(font
@@ -8269,7 +8269,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK_PIP"
+		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
 			(at 199.39 45.72 0)
 			(effects
 				(font
@@ -8476,7 +8476,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK_PIP"
+		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
 			(at 124.46 45.72 0)
 			(effects
 				(font
@@ -9108,7 +9108,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:TOGGLE_SILK_PIP3"
+		(property "Footprint" "parts-for-kicad:TOGGLE_ON-ON_SILK"
 			(at 50.8 80.01 0)
 			(effects
 				(font
@@ -9325,7 +9325,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK_PIP"
+		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
 			(at 105.41 45.72 0)
 			(effects
 				(font
@@ -9529,7 +9529,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK_PIP"
+		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
 			(at 142.24 45.72 0)
 			(effects
 				(font
@@ -9744,7 +9744,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK_PIP"
+		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
 			(at 85.09 45.72 0)
 			(effects
 				(font
@@ -10028,7 +10028,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK_PIP"
+		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
 			(at 180.34 45.72 0)
 			(effects
 				(font
@@ -10646,7 +10646,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK_PIP"
+		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
 			(at 161.29 45.72 0)
 			(effects
 				(font
@@ -11462,7 +11462,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK_PIP"
+		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
 			(at 62.23 45.72 0)
 			(effects
 				(font
