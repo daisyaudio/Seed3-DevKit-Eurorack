@@ -2,6 +2,7 @@
 **/*-backups/*
 *.lck
 \#auto_saved_files\#
+*.swp
 
 # Temporary files (generally kicad related)
 *.000
