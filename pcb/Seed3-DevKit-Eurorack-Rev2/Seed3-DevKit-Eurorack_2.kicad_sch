@@ -6823,7 +6823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "001233dc-8f58-45e0-a8de-2c4f5df96b92")
-		(property "Reference" "SW1"
+		(property "Reference" "SW3"
 			(at 86.36 85.09 90)
 			(effects
 				(font
@@ -6880,7 +6880,7 @@
 		(instances
 			(project "Seed3-DevKit-Eurorack-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "SW1")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -8027,7 +8027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4201030c-5071-4037-b57e-cfdbcd83d428")
-		(property "Reference" "SW4"
+		(property "Reference" "SW2"
 			(at 190.5 74.93 0)
 			(effects
 				(font
@@ -8087,7 +8087,7 @@
 		(instances
 			(project "Seed3-DevKit-Eurorack-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "SW4")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -9090,7 +9090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "690bc152-32d7-4433-b880-971e25a22f22")
-		(property "Reference" "SW2"
+		(property "Reference" "SW4"
 			(at 48.26 85.09 90)
 			(effects
 				(font
@@ -9147,7 +9147,7 @@
 		(instances
 			(project "Seed3-DevKit-Eurorack-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "SW2")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -9583,10 +9583,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "81d047b8-bfae-4f98-b8c6-c1ef55362c38")
 		(property "Reference" "J_GATE_IN_1"
-			(at 231.14 144.145 0)
+			(at 241.554 137.922 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10280,7 +10279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b029966d-b6ed-42c9-920d-c0621e88b72d")
-		(property "Reference" "SW3"
+		(property "Reference" "SW1"
 			(at 156.21 74.93 0)
 			(effects
 				(font
@@ -10340,7 +10339,7 @@
 		(instances
 			(project "Seed3-DevKit-Eurorack-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "SW3")
+					(reference "SW1")
 					(unit 1)
 				)
 			)

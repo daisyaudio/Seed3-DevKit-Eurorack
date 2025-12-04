@@ -275,6 +275,102 @@
         "use_drill_origin": true
       },
       "type": "pcb_export_pdf"
+    },
+    {
+      "description": "Render Top PNG",
+      "id": "9c95e28c-bda9-4877-96d3-359832f5a198",
+      "settings": {
+        "bg_style": "default",
+        "description": "",
+        "floor": false,
+        "format": "png",
+        "height": 1080,
+        "light_bottom_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_camera_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_side_elevation": 60,
+        "light_side_intensity": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "light_top_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_filename": "${CURRENT_DATE}/board/render_top.png",
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "pan_z": 0.0,
+        "perspective": false,
+        "pivot_x": 0.0,
+        "pivot_y": 0.0,
+        "pivot_z": 0.0,
+        "quality": "high",
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "side": "top",
+        "width": 1920,
+        "zoom": 1.0
+      },
+      "type": "pcb_render"
+    },
+    {
+      "description": "Render Bottom PNG",
+      "id": "31e55da3-86a9-480c-85b7-305165d29c39",
+      "settings": {
+        "bg_style": "default",
+        "description": "",
+        "floor": false,
+        "format": "png",
+        "height": 1080,
+        "light_bottom_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_camera_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_side_elevation": 60,
+        "light_side_intensity": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "light_top_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_filename": "${CURRENT_DATE}/board/render_bottom.png",
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "pan_z": 0.0,
+        "perspective": false,
+        "pivot_x": 0.0,
+        "pivot_y": 0.0,
+        "pivot_z": 0.0,
+        "quality": "basic",
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "side": "bottom",
+        "width": 1920,
+        "zoom": 1.0
+      },
+      "type": "pcb_render"
     }
   ],
   "meta": {
@@ -300,7 +396,9 @@
       "id": "302b73e0-aeaa-433d-bcff-b0ceddf806a9",
       "only": [
         "777ec8d6-c871-4e94-a7ad-f0e283b8107a",
-        "f295cf05-6fa1-40c6-9228-c17ac1f84c39"
+        "f295cf05-6fa1-40c6-9228-c17ac1f84c39",
+        "9c95e28c-bda9-4877-96d3-359832f5a198",
+        "31e55da3-86a9-480c-85b7-305165d29c39"
       ],
       "settings": {
         "output_path": "${KIPRJMOD}/review"
