@@ -130,7 +130,8 @@
         "exclude_dnp": false,
         "field_delimiter": ",",
         "fields_group_by": [
-          "Value"
+          "Value",
+          "Footprint"
         ],
         "fields_labels": [
           "Value",
@@ -194,7 +195,7 @@
         "drawing_sheet": "",
         "format": "pdf",
         "min_pen_width": 847,
-        "output_filename": "",
+        "output_filename": "Seed3-DevKit-Eurorack-Rev3.pdf",
         "page_size": "auto",
         "pdf_hierarchical_links": true,
         "pdf_metadata": true,
