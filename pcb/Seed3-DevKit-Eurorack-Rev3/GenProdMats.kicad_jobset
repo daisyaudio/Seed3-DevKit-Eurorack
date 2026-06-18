@@ -158,7 +158,7 @@
           "Footprint",
           "__Datasheet",
           "__Description",
-          "__${QUANTITY}",
+          "${QUANTITY}",
           "__${ITEM_NUMBER}",
           "__Availability",
           "__Check_prices",
