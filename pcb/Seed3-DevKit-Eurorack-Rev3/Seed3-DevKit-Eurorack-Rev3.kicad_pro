@@ -499,7 +499,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Seed3-DevKit-Eurorack-Rev2.kicad_pro",
+    "filename": "Seed3-DevKit-Eurorack-Rev3.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -602,7 +602,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "",
+    "bom_export_filename": "${PROJECTNAME}_bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -705,18 +705,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Seed3-DevKit-Eurorack-Rev2.kicad_sch",
-        "name": "Seed3-DevKit-Eurorack-Rev2",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "Seed3-DevKit-Eurorack-Rev3.kicad_sch",
+        "name": "Seed3-DevKit-Eurorack-Rev3",
+        "uuid": "19edde5c-efb5-4a72-a9f3-fb5a3c99bba0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D3",
     "variants": []
   },
   "sheets": [
     [
       "19edde5c-efb5-4a72-a9f3-fb5a3c99bba0",
-      "Root"
+      "Seed3-DevKit-Eurorack-Rev3"
     ],
     [
       "b2297a72-db37-46bb-8b2e-2b8f47454008",
