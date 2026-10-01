@@ -69,8 +69,6 @@ Install the Daisy toolchain and clone the libraries by following the setup guide
 
 ### 2. Build the template
 
-<!-- TODO: confirm the template folder name. -->
-
 A ready-to-go starting project for the Eurorack Dev Kit lives in libDaisy at
 [`examples/devkits/Eurorack-DevKit-Template`](https://github.com/daisyaudio/libDaisy/tree/master/examples/devkits/Eurorack-DevKit-Template).
 
@@ -103,8 +101,6 @@ Mount the Dev Kit in a 3U Eurorack case, connect the Eurorack power ribbon with 
 <img width="100%" height="auto" alt="Seed3 Eurorack Dev Kit pinout" src="https://daisy.nyc3.cdn.digitaloceanspaces.com/products/seed-3-euro/seed3-euro-dev-kit-pinout-dark.svg" />
 
 A printable [Pinout PDF](https://daisy.nyc3.cdn.digitaloceanspaces.com/products/seed-3-euro/seed-3-euro-dev-kit-pinout.pdf) is also available.
-
-<!-- TODO: fill in signal names and Seed3 pins from the pinout. -->
 
 ### Audio
 
