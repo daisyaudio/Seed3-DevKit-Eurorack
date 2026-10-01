@@ -33,7 +33,7 @@ The Dev Kit carries a host of hardware parameters, including 8 potentiometers, j
 | **CV & Gate** | 4 × CV inputs, 2 × gate inputs, 2 × CV outputs |
 | **USB** | USB-C port |
 | **Storage** | microSD slot for sample playback, file generation, and data transfer |
-| **Potentiometers** | 8 × potentiometers |
+| **Potentiometers** | 8 × potentiometers 10 kΩ linear (B-taper) |
 | **Buttons** | 2 × tactile switches |
 | **Toggle Switches** | 2 × toggle switches |
 
