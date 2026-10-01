@@ -29,7 +29,7 @@ The Dev Kit carries a host of hardware parameters, including 8 potentiometers, j
 | --- | --- |
 | **Format** | 3U Eurorack, 28 HP |
 | **Audio** | Stereo audio input and output (AC-coupled) |
-| **MIDI** | MIDI In and Out |
+| **MIDI** | MIDI In, Out, and Thru |
 | **CV & Gate** | 4 × CV inputs, 2 × gate inputs, 2 × CV outputs |
 | **USB** | USB-C port |
 | **Storage** | microSD slot for sample playback, file generation, and data transfer |
@@ -39,15 +39,13 @@ The Dev Kit carries a host of hardware parameters, including 8 potentiometers, j
 
 ## Specifications
 
-<!-- TODO: Fill in or remove any rows that don't apply. -->
-
 | Parameter | Value |
 | --- | --- |
 | Processor module | Daisy Seed3 |
 | Format | 3U Eurorack, 28 HP |
-| Power | 10-16 Eurorack Power Connector |
+| Power | 10-pin Eurorack Power Connector |
 | Current draw | firmware dependent |
-| Module depth | 2 mm (PCB acts as front panel, can install in 3U space) |
+| Module depth | PCB acts as front panel, can install in 3U space. 2 mm behind rails. |
 | Audio codec / sample rate | TAC5242 / up to 32-bit, 192kHz |
 | Audio input impedance | 100KΩ |
 | Audio output impedance | 100Ω |
@@ -58,7 +56,7 @@ The Dev Kit carries a host of hardware parameters, including 8 potentiometers, j
 | MIDI connectors | In, Out, and Thru (3.5 mm TRS Type A) |
 
 > [!WARNING]
-> Check the ribbon cable orientation before powering up. The red stripe marks −12 V. <!-- TODO: confirm reverse polarity protection. -->
+> Check the ribbon cable orientation before powering up. The red stripe marks −12 V. Reverse power protection circuit is installed on the board.
 
 ## Getting Started
 
@@ -143,23 +141,23 @@ The eight pots are read through a single ADC pin via an 8-channel analog multipl
 
 | Jack | Signal | Seed3 Pin |
 | --- | --- | --- |
-| CV In 1 | CV_1_ADC | D18 |
-| CV In 2 | CV_2_ADC | D17 |
-| CV In 3 | CV_3_ADC | D16 |
-| CV In 4 | CV_4_ADC | D19 |
-| Gate In 1 | GPIO_GATEIN_1 | D10 |
-| Gate In 2 | GPIO_GATEIN_2 | D21 |
-| CV Out 1 | DAC_CV_1 | D22 |
-| CV Out 2 | DAC_CV_2 | D23 |
+| CV In 1 | `CV_1_ADC` | D18 |
+| CV In 2 | `CV_2_ADC` | D17 |
+| CV In 3 | `CV_3_ADC` | D16 |
+| CV In 4 | `CV_4_ADC` | D19 |
+| Gate In 1 | `GPIO_GATEIN_1` | D10 |
+| Gate In 2 | `GPIO_GATEIN_2` | D21 |
+| CV Out 1 | `DAC_CV_1` | D22 |
+| CV Out 2 | `DAC_CV_2` | D23 |
 
 ### Switches
 
 | Switch | Signal | Seed3 Pin | Type |
 | --- | --- | --- | --- |
-| Tactile switch 1 | TAC_SW1 | D0 | Momentary |
-| Tactile switch 2 | TAC_SW2 | D20 | Momentary |
+| Tactile switch 1 | `TAC_SW1` | D0 | Momentary |
+| Tactile switch 2 | `TAC_SW2` | D20 | Momentary |
 | Toggle switch 1 | `TOG_2_A` / `TOG_2_B` | D27 / D7 | ON-OFF-ON (3-position, two pins) |
-| Toggle switch 2 | TOG_1 | D12 | ON-ON |
+| Toggle switch 2 | `TOG_1` | D12 | ON-ON |
 
 ### MIDI
 
@@ -167,6 +165,7 @@ The eight pots are read through a single ADC pin via an 8-channel analog multipl
 | --- | --- | --- | --- |
 | MIDI Out | `MIDI_TX` | D13 | Out |
 | MIDI In | `MIDI_RX` | D14 | In |
+| MIDI Thru | `MIDI_RX` | D14 | Mirrors MIDI In |
 
 ### microSD (SDMMC, 4-bit)
 
