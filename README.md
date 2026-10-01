@@ -202,15 +202,41 @@ The eight pots are read through a single ADC pin via an 8-channel analog multipl
 
 <img width="256px" height="auto" alt="Open Source Hardware logo" src="https://github.com/user-attachments/assets/f9264744-3509-4cf0-9f4a-981cb05eb38e" />
 
-The Eurorack Dev Kit is open-source hardware and carries the essential circuitry needed to use Daisy in modular synth applications. Use the BOM, schematics, and board files to kickstart your own modular designs.
+The Eurorack Dev Kit is open-source hardware, built to the [Open Source Hardware Definition](https://www.oshwa.org/definition/) published by the Open Source Hardware Association (OSHWA). The schematics, PCB layouts, bill of materials, and KiCad source files are published so that you can study, modify, manufacture, and sell your own designs based on them.
 
 ## License
 
-The Seed3 Eurorack Dev Kit is released under the permissive **MIT License**. This means that:
+The hardware design files in this repository are licensed under the **CERN Open Hardware Licence Version 2 – Permissive** ([CERN-OHL-P-2.0](https://ohwr.org/cern_ohl_p_v2.pdf)).
 
-- Designers are free to use, study, modify, share, and distribute the hardware designs and products based on them.
-- Designers may use any and all provided designs in closed-source commercial products.
+Subject to the terms of that licence, you may:
 
-See [LICENSE](LICENSE) for the full text.
+- Use, study, copy, modify, and distribute these designs and any products made from them.
+- Incorporate these designs, in whole or in part, into closed-source and commercial products.
+
+When you redistribute these designs or products made from them, you must:
+
+- Retain all copyright, licence, and other notices contained in the source files.
+- Add a notice to any modified source stating that you modified it, with the date and a brief description of the change.
+- Ensure that recipients of any product made from these designs have access to the applicable notices.
+
+These designs are provided "as is", without warranty of any kind, express or implied. See [LICENSE](https://github.com/user-attachments/files/32935889/LICENSE.txt) for the full licence text, including the disclaimer of warranty and limitation of liability.
+
+Firmware and software, including [libDaisy](https://github.com/electro-smith/libDaisy) and [DaisySP](https://github.com/electro-smith/DaisySP), are licensed separately under the terms included in their respective repositories.
+
+SPDX-License-Identifier: CERN-OHL-P-2.0
+
+### Trademarks
+
+DAISY® is a trademark of Qu-Bit Electronix, Inc., registered in the United States. CERN-OHL-P-2.0 grants a license to the copyright and related rights in these designs. It does not grant any right or license to use the DAISY name, logos, product names, or other trademarks of Qu-Bit Electronix, Inc.
+
+Products, derivative designs, and related materials made from these designs may not:
+
+- Use the DAISY name or logo, or any confusingly similar name or mark, in a product name, model number, brand, domain name, or marketing material.
+- Reproduce the DAISY name or logo on a PCB silkscreen, front panel, enclosure, packaging, or documentation, except where needed to keep the required licence notices.
+- State or imply that the product is made, endorsed, sponsored, certified, or supported by Qu-Bit Electronix, Inc.
+
+You may make truthful, factual statements about compatibility or origin, such as "based on the Seed3 Pedal Dev Kit design" or "compatible with the Daisy Seed3", provided the statement does not suggest affiliation or endorsement. If you redistribute or sell products derived from these designs, remove the DAISY name and logo from the silkscreen and other artwork before manufacture.
+
+For trademark licensing or permission requests, contact Qu-Bit Electronix, Inc. through [daisy.audio/pages/support](https://daisy.audio/pages/support).
 
 © 2026 Qu-Bit Electronix, Inc. (dba Daisy)
