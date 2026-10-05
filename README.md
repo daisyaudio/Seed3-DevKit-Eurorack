@@ -237,7 +237,7 @@ The eight pots are read through a single ADC pin via an 8-channel analog multipl
 
 ### USB-C
 
-The Dev Kit's USB-C port (J7) connects to the Seed3's USB High Speed peripheral. It is separate from the USB-C port on the Seed3 module, which is used for programming and for the template's serial output. The module is powered from the Eurorack power header (P1), not from USB.
+The Dev Kit's USB-C port (J7) connects to the Seed3's external USB peripheral. It is separate from the USB-C port on the Seed3 module, which is used for programming and for the template's serial output. The module is powered from the Eurorack power header (P1), not from USB.
 
 | Signal | Seed3 Pin |
 | --- | --- |
