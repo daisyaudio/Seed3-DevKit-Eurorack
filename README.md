@@ -31,7 +31,7 @@ The Dev Kit carries a host of hardware parameters, including 8 potentiometers, j
 | **Audio** | Stereo audio input and output (AC-coupled) |
 | **MIDI** | 3.5mm TRS MIDI In, Out, and Thru |
 | **CV & Gate** | 4 × CV inputs, 2 × gate inputs, 2 × CV outputs |
-| **USB** | USB-C port connected to the Seed3's USB High Speed peripheral, for USB features in your firmware |
+| **USB** | USB-C port connected to the Seed3's external USB peripheral, for USB features in your firmware |
 | **Storage** | microSD slot for sample playback, file generation, and data transfer |
 | **Potentiometers** | 8 × 10kΩ linear (B-taper) |
 | **Buttons** | 2 × tactile switches |
@@ -70,14 +70,19 @@ The Dev Kit carries a host of hardware parameters, including 8 potentiometers, j
 Follow the Daisy [C++ Getting Started guide](https://docs.daisy.audio/tutorials/cpp-dev-env/). It installs the toolchain and clones [DaisyExamples](https://github.com/daisyaudio/DaisyExamples), which includes [libDaisy](https://github.com/daisyaudio/libDaisy) (hardware library) and [DaisySP](https://github.com/daisyaudio/DaisySP) (DSP library).
 
 ### 2. Update libDaisy
-
-The Eurorack Dev Kit template and board support are newer than the copy of libDaisy that DaisyExamples includes. From your `DaisyExamples` folder, update libDaisy to the latest version and rebuild it:
-
+ 
+The Eurorack Dev Kit template and board support are newer than the copy of libDaisy included with DaisyExamples. From your `DaisyExamples` folder, update libDaisy to its latest version, fetch its own dependencies, and rebuild it:
+ 
 ```bash
 git submodule update --remote libDaisy
-cd libDaisy
-make
+git -C libDaisy submodule update --init --recursive
+make -C libDaisy
 ```
+ 
+The first line moves libDaisy to its latest version. The second fetches libDaisy's own dependencies, such as the STM32 drivers it needs to compile. The last line rebuilds libDaisy, which is required after any update.
+ 
+> [!CAUTION]
+> Running `git submodule update --init --recursive` or `git pull --recurse-submodules` from the `DaisyExamples` folder afterwards resets libDaisy to the older version DaisyExamples was built with. If that happens, run the three commands above again.
 
 ### 3. Build the template
 
