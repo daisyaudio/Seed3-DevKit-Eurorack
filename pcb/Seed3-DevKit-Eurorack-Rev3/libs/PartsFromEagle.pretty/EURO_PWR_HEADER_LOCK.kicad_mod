@@ -5,9 +5,9 @@
 	(layer "F.Cu")
 	(descr "Eurorack Modular Synth 5 x 2 power header, fat pads and offset pins for easier soldering")
 	(property "Reference" "Ref**"
-		(at 0 0 0)
+		(at -9.5 -0.5 270)
 		(layer "F.SilkS")
-		(uuid "71b07939-9c03-44b8-ad83-6dbad6917211")
+		(uuid "c1c23e59-a6b8-48d9-8e9a-c71bea56b173")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17,7 +17,7 @@
 	(property "Value" "Val**"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "8ccd59c9-81cd-46f6-94ad-6ee4bbeae5e5")
+		(uuid "887888a8-8fa5-4f8e-afba-59ebee16c179")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,7 +28,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cb83738b-2c62-4bb1-9095-057285302868")
+		(uuid "ec007ba4-c2e9-474b-912d-55667f541a29")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,7 +39,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b34e54b6-2b5e-4ee2-92c5-68511b15dac2")
+		(uuid "74170319-e1d7-4c9c-9790-036d4b630b31")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +55,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cccf9a76-18ef-4a43-8347-338e7a2adce6")
+		(uuid "a2350142-98cb-4c04-8b92-735b1d8eec34")
 	)
 	(fp_poly
 		(pts
@@ -67,7 +67,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "e1a37b6b-c039-4ecb-9e0d-77d6b624ac9a")
+		(uuid "eda04d6d-ab49-42ca-a98e-142b7880a5b8")
 	)
 	(fp_poly
 		(pts
@@ -79,7 +79,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "bc4ce4bf-8528-47ef-bdd5-4aa182e907ca")
+		(uuid "1666b478-e1d0-41e1-9ff7-8de038db4f2f")
 	)
 	(fp_poly
 		(pts
@@ -91,7 +91,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "9e4ac76c-603b-4560-82cb-1157155d1ec1")
+		(uuid "cb22b490-d456-4385-bef7-269e957e64d0")
 	)
 	(fp_poly
 		(pts
@@ -103,7 +103,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "9fc94f96-b5c6-4afb-bed1-8bcfcd67ac5d")
+		(uuid "15e42c02-55a7-4419-8b32-746b72660099")
 	)
 	(fp_poly
 		(pts
@@ -115,7 +115,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "89d23992-13a3-4910-a3b7-ed20be82588b")
+		(uuid "480c18b4-2947-4f2b-b4ba-8be9ca245776")
 	)
 	(fp_poly
 		(pts
@@ -127,7 +127,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "61b308b1-67b9-4f90-b796-19a02456d1ca")
+		(uuid "4a40151f-4630-43e3-b937-4d72674fff20")
 	)
 	(fp_poly
 		(pts
@@ -139,7 +139,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "b1f352af-227c-441a-a183-8dd8360bfb6c")
+		(uuid "9d8d0c23-0aba-499c-841e-b859c190ea2d")
 	)
 	(fp_poly
 		(pts
@@ -151,7 +151,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "a1705923-dd7f-4353-979e-c0684a8ae4f8")
+		(uuid "ada857e6-ffb9-451c-b571-f54a76ee4d80")
 	)
 	(fp_poly
 		(pts
@@ -163,7 +163,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "2eda890b-a92b-4663-963e-c4b338ed1be8")
+		(uuid "bd34fa51-7d89-45cb-9425-8f6ab45f7a53")
 	)
 	(fp_poly
 		(pts
@@ -175,17 +175,16 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "909d7877-96ad-4370-a76a-8f017b542f3a")
+		(uuid "7cbcb9e6-1f27-451d-b81a-4ff381d9b870")
 	)
 	(fp_text user "RED STRIPE"
-		(at -7.62 -3.429 270)
+		(at -8.5 -3.429 270)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "fc3c11be-e303-4ef3-9f35-4e480eb8ef7b")
+		(uuid "5c5cc0e6-9aa9-48bd-acc7-5b02f9715423")
 		(effects
 			(font
-				(size 0.747776 0.747776)
-				(thickness 0.065024)
+				(size 1 1)
 			)
 			(justify left bottom)
 		)
@@ -201,7 +200,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "5edbb2b3-a127-4300-af03-db9212ebfedd")
+		(uuid "b665b1bb-d82e-47c3-990f-7f38154bc086")
 	)
 	(pad "GND2" thru_hole roundrect
 		(at -2.54 1.397)
@@ -214,7 +213,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "52fc9816-7c0a-4190-8e52-6b14e1ba235d")
+		(uuid "6fa5cf42-dfae-4b63-881a-97140f88e54d")
 	)
 	(pad "GND3" thru_hole roundrect
 		(at 0 -1.397)
@@ -227,7 +226,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "00c9715b-7117-4295-a742-6ea48fb91f58")
+		(uuid "f0ca52a0-0a85-4cdf-acf3-bf83e92d8904")
 	)
 	(pad "GND4" thru_hole roundrect
 		(at 0 1.143)
@@ -240,7 +239,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "9a753b38-e54b-4fba-979f-3c975afb4a7f")
+		(uuid "a72c543e-3713-40dc-8410-232c5c93bd86")
 	)
 	(pad "GND5" thru_hole roundrect
 		(at 2.54 -1.143)
@@ -253,7 +252,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "a30ac72f-6899-4713-8418-e137c8064167")
+		(uuid "e03ae313-5858-4fdd-9c5b-86bfbe545f61")
 	)
 	(pad "GND6" thru_hole roundrect
 		(at 2.54 1.397)
@@ -266,7 +265,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "1279e26f-8432-4461-96da-f20f8e446b89")
+		(uuid "a4a78b7d-4a6c-4626-8a58-cd51c845b025")
 	)
 	(pad "NEG1" thru_hole roundrect
 		(at -5.08 -1.397)
@@ -279,7 +278,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "003acb30-ae59-4d49-b927-a834f77eef56")
+		(uuid "94a620c7-23e7-475a-965b-865d79e75281")
 	)
 	(pad "NEG2" thru_hole roundrect
 		(at -5.08 1.143)
@@ -292,7 +291,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "e2bccbc8-6bf1-484b-9c8d-02807a1afad0")
+		(uuid "12292c77-26fd-49dd-9c4b-4a96c5371f8f")
 	)
 	(pad "POS1" thru_hole roundrect
 		(at 5.08 -1.397)
@@ -305,7 +304,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "760188f5-fde9-4063-8d88-87aed27ab0ec")
+		(uuid "38348dfe-3a74-4875-b216-bf40ec3c350a")
 	)
 	(pad "POS2" thru_hole roundrect
 		(at 5.08 1.143)
@@ -318,7 +317,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "a6dd0c9d-e16e-4928-aee2-0e3cc0947ad6")
+		(uuid "c061ed70-1685-4cc6-a010-1b80f2438e49")
 	)
 	(embedded_fonts no)
 )
