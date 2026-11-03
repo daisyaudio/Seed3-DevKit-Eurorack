@@ -181,7 +181,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial Marker"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -207,7 +207,13 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/5dcde181-6fa6-4774-8f9b-48f5a503b47a")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -292,7 +298,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -318,7 +324,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/c463d527-0c67-4d38-959c-2fbbc34ef3de")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -444,7 +456,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -470,7 +482,13 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/5d4dbc16-1a2a-45fd-939b-aa6fafc0ce70")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -531,7 +549,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(FB2-Pad1)")
+			(net "Net-(P1-+12V)")
 			(pintype "passive")
 			(uuid "a89a7fa5-38e7-4084-b1da-edc2a6afd620")
 		)
@@ -596,7 +614,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -622,7 +640,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/df38ac6b-fd4c-4701-8e9d-123e859a4ec0")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -774,7 +798,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/968ed769-c6ba-4162-9dc1-bb6475e2b32e")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -900,7 +930,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -926,7 +956,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/f184b016-9982-4045-a5d0-f56befeb2a70")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1052,7 +1088,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1078,7 +1114,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/2d9f755e-24bf-46bb-9fa0-34cd55d961df")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1204,7 +1246,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1230,7 +1272,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/e5a3b68e-beba-4377-bd97-bf6654a79899")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1356,7 +1404,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1382,7 +1430,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/44162074-9e04-42dc-a894-b63b356796ec")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1527,8 +1581,14 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/d77287a9-f844-4153-b44b-6041ee90f70b")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
-		(attr smd)
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -1621,7 +1681,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/350599cb-04a6-4646-afd5-7660b87f54d3")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1747,7 +1813,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1773,7 +1839,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/4f28d0c5-0a0d-4687-afef-ef0bc1e8221f")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1903,7 +1975,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Open Hardware logo, small"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1918,8 +1990,14 @@
 		)
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/5a8bb030-7f07-4470-8559-80fd2ea71f96")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -2350,7 +2428,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2363,7 +2441,13 @@
 		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/a4eb8f65-77ec-4ee5-ad74-6300e983e12e")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.65 -2.65)
@@ -2804,7 +2888,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -2830,7 +2914,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/c02d01a9-14c2-4c6c-80bb-a049acf22b13")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2982,7 +3072,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/fb73a9b8-4956-4485-a8ca-69eb11256918")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3134,7 +3230,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/a2037459-13f9-45d1-b7ad-523389c25abc")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3270,9 +3372,28 @@
 				)
 			)
 		)
+		(property "IPN" "Eurorack Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a60e91b-94d5-4ece-92b3-deb115e7bcfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/393049cb-abf6-4eda-8b15-759c275e8ca1")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "TIP" "NORM" "GND")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -6)
@@ -3537,7 +3658,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3563,7 +3684,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/c6eba874-3ab6-4377-b9f5-4f60fd51d766")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3712,10 +3839,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "NPN"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a4e21cb-e9e8-4ae7-92a3-dbc59ad07c96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e254436-24ab-46ba-aa3c-8282cd118f56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/6c8d8e81-c3d2-47f1-add5-daa858bdd9b1")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4065,7 +4224,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4091,7 +4250,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/97135375-e87f-4d2b-b217-e9b83063225a")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4243,7 +4408,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/4b72633e-90fd-41d8-8d71-d4ed569a9aac")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4395,7 +4566,15 @@
 		(property ki_fp_filters "TSSOP*4.4x5mm*P0.65mm* DIP*W7.62* SOIC*3.9x9.9mm*P1.27mm* SO*5.3x10.2mm*P1.27mm*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/219f1b30-dca4-4b8a-a559-c2ef1a64c2b2")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "11" "10" "9" "3" "6" "7" "8" "16" "13" "14" "15" "12" "1" "5"
+					"2" "4"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4829,7 +5008,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4842,7 +5021,13 @@
 		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/6ff8a928-6ab2-4f0c-8c19-ffa35ef0a06a")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.65 -2.65)
@@ -5283,7 +5468,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5309,7 +5494,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/02b90033-7074-4792-93eb-71a8649b2f6d")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5461,7 +5652,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/e1877dbb-5f1e-4525-accc-63c957835a54")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5587,7 +5784,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -5613,7 +5810,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/d7ce2f48-2cdd-42e4-be9d-c2e876843b3f")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5783,7 +5986,13 @@
 		(property ki_fp_filters "D*SOD?323*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/fddbe654-b4a1-4027-8497-c2d93b3d131f")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6043,7 +6252,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6056,7 +6265,13 @@
 		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/7d29a0f1-fb1b-4afc-8a9f-3f917d2da781")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.65 -2.65)
@@ -6497,7 +6712,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -6523,7 +6738,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/b02293af-928f-4e4e-9952-90350c179cff")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6664,7 +6885,13 @@
 		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/690bc152-32d7-4433-b880-971e25a22f22")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.08 -2.54)
@@ -6839,7 +7066,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6865,7 +7092,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/542b2fbe-3bf5-414f-95c7-940cf60f17a7")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6991,7 +7224,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7017,7 +7250,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/6fa05f86-e835-4b5e-96a8-9cebbd4ee6ef")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7143,7 +7382,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial Marker"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7169,7 +7408,13 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/5e420578-d6a3-4cee-8b16-a596f81b756b")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -7253,7 +7498,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Momentary Switch Button commonly used for reset or general input. Spark Fun Electronics SKU : COM-00097"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7264,9 +7509,41 @@
 				)
 			)
 		)
+		(property "IPN" "Mini Button"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5a2e49a-3753-401b-8193-87ce374ddb64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TL1105SPF250Q"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cb93728-c656-4e18-bfef-a449d7dabdf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/b029966d-b6ed-42c9-920d-c0621e88b72d")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.048 -1.028)
@@ -7610,7 +7887,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7623,7 +7900,13 @@
 		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/e775416d-6aec-43a8-a6a7-ad2a3ff7e7e6")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.65 -2.65)
@@ -8090,7 +8373,13 @@
 		(property ki_fp_filters "CP_*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/b50329cf-2c4d-4d32-8f61-995239c831e4")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8505,7 +8794,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -8531,7 +8820,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/920a88d2-9dc7-49d8-abcd-2fad80600c94")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8672,7 +8967,13 @@
 		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/57effbcb-2e52-471a-997e-62d0bc4faad4")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "TIP" "RING" "GND")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -6)
@@ -8993,9 +9294,28 @@
 				)
 			)
 		)
+		(property "IPN" "Eurorack Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f41edd99-65fe-4b8a-bb63-b00ac59e0ba4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/338da7fc-4e24-4ea6-a810-9287b2b8a263")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "TIP" "NORM" "GND")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -6)
@@ -9260,7 +9580,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9286,7 +9606,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/a06ef429-843c-4c03-9143-85b5dcc7fc63")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9412,7 +9738,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9438,7 +9764,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/29860541-c995-47f7-84d2-e8228224e187")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9564,7 +9896,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9590,7 +9922,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/5fe14e9e-b64c-49ef-b311-bf35a1576e55")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9716,7 +10054,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9742,7 +10080,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/902a3c59-7101-4390-a77c-66469b47d846")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9883,7 +10227,13 @@
 		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/f51d54b6-36de-419d-bf81-64c12f0c0d65")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "TIP" "RING" "GND")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -6)
@@ -10220,7 +10570,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/456dc545-d560-48f5-b3bf-36d6fa594f99")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10369,10 +10725,29 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32f2dba5-3b7b-4a1a-b188-7f44bd0a0afc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/fb9cfa66-a36b-46e9-847d-b76ed2f8a0f7")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10552,7 +10927,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10578,7 +10953,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/3b3a9de0-9205-4809-a62b-f8edce69dc05")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10730,7 +11111,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/f207c0cb-8cfc-4955-82c1-3f21324167ad")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10874,7 +11261,16 @@
 		(property ki_fp_filters "Electrosmith*Daisy*Seed*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/dc1775ef-a27b-40ff-b904-53af70c62edf")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "16" "17" "18" "19" "22" "23" "24" "25" "26" "27" "28" "29" "30"
+					"31" "32" "33" "34" "35" "39" "40" "38" "21" "20" "1" "36" "37" "14"
+					"15" "12" "13" "8" "9" "10" "11" "5" "4" "3" "2" "6" "7"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11620,7 +12016,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11646,7 +12042,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/821f30ab-4f55-4a58-be82-f447236b3ebe")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11772,7 +12174,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11798,7 +12200,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/61bea9c2-6930-4240-8920-1d842427d2ce")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11934,9 +12342,28 @@
 				)
 			)
 		)
+		(property "IPN" "Eurorack Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a757158a-e8d8-4551-8714-1d716a9ffd4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/73264123-4559-41ee-98a9-e12bd65b21b6")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "TIP" "NORM" "GND")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -6)
@@ -12201,7 +12628,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -12227,7 +12654,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/4b06217f-de84-407a-8999-403f8e877891")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12353,7 +12786,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12379,7 +12812,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/eba74858-9cf9-4b00-a9d7-7cc13e0739d7")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12531,7 +12970,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/9b4b67c5-f3ef-4fa8-8acf-ac735a4e3ff1")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12661,7 +13106,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12674,7 +13119,13 @@
 		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/5092a3f1-68d1-4587-b827-aa1694fe58aa")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.65 -2.65)
@@ -13141,7 +13592,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/c1ff542a-b9b9-4b6e-af66-568b3ea9ca9b")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13267,7 +13724,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13293,7 +13750,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/47ae031a-62af-47dc-a206-73efa2119b45")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13419,7 +13882,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -13445,7 +13908,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/3df61c3d-f305-4d6d-bb9e-09487a198c01")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13581,9 +14050,28 @@
 				)
 			)
 		)
+		(property "IPN" "Eurorack Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67ff627c-045a-44d2-9ee8-0e16fbd32f21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/7a35711b-d8fb-4b77-a4a4-8c810f74a636")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "TIP" "NORM" "GND")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -6)
@@ -13858,9 +14346,28 @@
 				)
 			)
 		)
+		(property "IPN" "Eurorack Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d89b40d9-97bf-4a6c-96ee-790bcbd2f25d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/81d047b8-bfae-4f98-b8c6-c1ef55362c38")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "TIP" "NORM" "GND")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -6)
@@ -14151,7 +14658,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/58b31ca8-e5b7-4b62-a158-ffb81aeb2a3c")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14303,7 +14816,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/ddaf638e-9ee1-4322-af33-d60a8caf86a2")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14455,7 +14974,21 @@
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/e0ba710c-fe17-4678-8de7-d03efa767225")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "7")
+			)
+			(unit
+				(name "C")
+				(pins "8" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14803,7 +15336,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14829,7 +15362,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/5296c535-83a3-4626-ae0f-b0cf445b8d0c")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14955,7 +15494,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14981,7 +15520,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/8ad4e56c-6db7-405d-8640-7c9107a062f0")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15117,9 +15662,28 @@
 				)
 			)
 		)
+		(property "IPN" "Eurorack Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98842078-b092-449b-8d4a-964eb2a14add")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/c1e5129e-a3a6-4ec7-91b6-e2da3b08bb1e")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "TIP" "NORM" "GND")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -6)
@@ -15384,7 +15948,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15410,7 +15974,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/5e1a1bb7-bdff-4fbe-af6e-2ec13c1976a0")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15536,7 +16106,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15562,7 +16132,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/7729695b-a4f2-441b-9d53-28b71b3c8a7f")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15688,7 +16264,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -15714,7 +16290,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/e0ed44b1-a6ec-4db3-936b-5ec4f64ef47b")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15840,7 +16422,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15866,7 +16448,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/91bebea5-6efa-4c71-812e-0a77840c6ce5")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16018,7 +16606,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/1f1c2f5d-3689-4d21-9dd1-58388afbfc99")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16143,7 +16737,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Momentary Switch Button commonly used for reset or general input. Spark Fun Electronics SKU : COM-00097"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16154,9 +16748,41 @@
 				)
 			)
 		)
+		(property "IPN" "Mini Button"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "114e8813-e704-4b0b-a6d2-3eeac9b176b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TL1105SPF250Q"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a36b2be5-542e-48aa-a910-d62464f84890")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/4201030c-5071-4037-b57e-cfdbcd83d428")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.048 -1.028)
@@ -16496,7 +17122,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -16522,7 +17148,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/71881d3f-6b31-443e-ae51-27851c21e718")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16648,7 +17280,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16674,7 +17306,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/8f7fc0c0-9e58-4ce5-a92b-623e19431d1b")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16800,7 +17438,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16826,7 +17464,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/1cf666c7-c970-4e41-991e-0edee48dea2c")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16952,7 +17596,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16978,7 +17622,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/bc1ac038-31a7-4e89-85f0-98bd4a6f8c4d")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17102,7 +17752,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -17193,7 +17843,15 @@
 		)
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/41d40727-367d-4c78-8ff6-03e2ab644a31")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A5" "A6" "A7" "A8" "A4/B9" "B4/A9" "B5" "B6" "B7" "B8" "A1/B12"
+					"B1/A12" "S1" "S2" "S3" "S4"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17576,7 +18234,14 @@
 		)
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/c7f21dce-aa7e-4855-9dec-2177fca82b3f")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -5.445 -5.445)
@@ -23871,8 +24536,14 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/1911a75f-b028-49bc-85e0-7e255262ffc4")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
-		(attr smd)
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -23928,7 +24599,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23939,7 +24610,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23965,7 +24636,13 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/276c6903-7b23-4022-85f4-c4ef343ca56b")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "2" "6" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24299,7 +24976,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24312,7 +24989,13 @@
 		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/beb9479f-248d-4d9e-952e-d6d4a13e1894")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.65 -2.65)
@@ -24768,7 +25451,13 @@
 		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/248fca02-5078-499e-b0b2-35ff9abf7aea")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "TIP" "RING" "GND")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -6)
@@ -25079,7 +25768,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25105,7 +25794,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/e769aeac-896c-4a11-be41-3034923575c4")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25241,9 +25936,28 @@
 				)
 			)
 		)
+		(property "IPN" "Eurorack Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb52368f-67ba-4f34-8895-933caed89e5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/65109724-15a4-4d0a-a518-8d910ff7403a")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "TIP" "NORM" "GND")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -6)
@@ -25534,7 +26248,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/cc5c6164-9211-44db-aed8-3aaa60e99e65")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25686,7 +26406,21 @@
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/8d04aedb-b27c-4148-a926-c53572616497")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "7")
+			)
+			(unit
+				(name "C")
+				(pins "8" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26034,7 +26768,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -26060,7 +26794,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/4cdcdffb-2732-4a8a-ad23-31fd91fe494a")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26212,7 +26952,13 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/d8638ca4-fe1e-42ff-9659-786bcbd2eb16")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26588,7 +27334,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/994fa7e5-0fa1-403b-bf56-2e12cf2a1ae8")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26740,7 +27492,21 @@
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/612a3bc0-ded3-4cc2-b9ae-17575098969c")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "7")
+			)
+			(unit
+				(name "C")
+				(pins "8" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27114,7 +27880,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/48cac774-cb17-40f3-8db2-1081fbcd0bef")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27263,10 +28035,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "NPN"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d567ff8-db84-4847-a4e7-ca1d807df6eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c314e88-2534-46f7-b86a-d526321e1e69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/6141636d-6fc1-4c37-9394-db21641660c2")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27616,7 +28420,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -27642,7 +28446,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/356d0315-268c-4623-8fce-023eb0be64b3")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27768,7 +28578,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -27794,7 +28604,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/f02fec42-2b47-4659-b9db-683a445ca579")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27935,7 +28751,13 @@
 		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/001233dc-8f58-45e0-a8de-2c4f5df96b92")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.08 -2.54)
@@ -28110,7 +28932,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28136,7 +28958,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/5c9b03c6-a5d4-4c4e-91fa-af6aae0dbc40")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28262,7 +29090,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -28288,7 +29116,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/61061c1a-f4b0-4b29-a3f1-6db8f30eb5b4")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28432,7 +29266,13 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/a163091f-4a44-496b-b649-46505a9a4c07")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "4" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28704,7 +29544,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/64026b94-3f11-4ce5-acf1-2b86ec1768a1")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28830,7 +29676,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -28856,7 +29702,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/f29edcd1-c1b2-4ceb-92c7-a3320e3fff61")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29008,7 +29860,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/5b7367af-a4b2-4fd8-8a82-264b2e5f5354")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29153,8 +30011,14 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/239353e1-97af-4820-a430-9b19a66d79ce")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
-		(attr smd)
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -29221,7 +30085,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -29247,7 +30111,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/874c1f6d-adf3-4666-bd15-7c325592601a")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29383,9 +30253,28 @@
 				)
 			)
 		)
+		(property "IPN" "Eurorack Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28c34d40-049f-4000-98e9-98ca21109d16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/8edb4e0b-5446-4c9d-8d7a-632b2b678cee")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "TIP" "NORM" "GND")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -6)
@@ -29654,7 +30543,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29667,7 +30556,13 @@
 		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/4bb5c380-63ae-4c80-a005-38ead7bf08b9")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.65 -2.65)
@@ -30134,7 +31029,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/1fb64085-b383-4cd5-b555-e6860d1d74ba")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30260,7 +31161,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -30286,7 +31187,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/e19f6581-557a-430c-92ad-213aec6dd2e8")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30456,7 +31363,13 @@
 		(property ki_fp_filters "D*SOD?323*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/f4f18e5e-9037-43bf-ac1b-47000930f5c0")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30738,7 +31651,13 @@
 		(property ki_fp_filters "DIP*W7.62mm* DIP*W10.16mm* SMDIP*W9.53mm*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/43669f18-c2be-44d7-902f-0ee895601e37")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "6" "5" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30992,7 +31911,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Standard Card Edge Connectors"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -31109,7 +32028,13 @@
 		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/063298b0-50f5-40f2-9c55-6235b0d2d032")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "5" "3" "7" "8" "1" "2" "4" "CD1" "MP1" "MP2" "MP3" "MP4" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31504,7 +32429,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/12061616-4779-4565-b054-b0ee5cf08a3d")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31656,7 +32587,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/a5f646e1-7fa4-4228-b73c-c7ff4b3aed06")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31808,7 +32745,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/39d611df-f50d-430f-9773-3076e6bdfded")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31978,7 +32921,13 @@
 		(property ki_fp_filters "D*SOD?323*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/979bc7e6-96d1-4563-8a60-0c634b119807")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32234,7 +33183,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -32260,7 +33209,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/d5572450-de08-4259-b7cf-517d39ca6cbb")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32386,7 +33341,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -32412,7 +33367,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/e3c97370-2ae6-4c20-80a7-97f4a53b6a98")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32538,7 +33499,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -32564,7 +33525,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/37765a00-bb70-4519-975a-a3e91058d390")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32700,7 +33667,15 @@
 		)
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/60d72c34-5dc3-455a-a3fd-7fd010c0cc21")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "POS1" "POS2" "GND1" "GND2" "GND3" "GND4" "GND5" "GND6" "NEG1"
+					"NEG2"
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -6.477 -3.175)
@@ -32949,7 +33924,7 @@
 			(roundrect_rratio 0.25)
 			(chamfer_ratio 0.2928932188)
 			(chamfer top_left top_right bottom_left bottom_right)
-			(net "Net-(FB3-Pad1)")
+			(net "Net-(P1--12V)")
 			(pinfunction "-12V_NEG1")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -32965,7 +33940,7 @@
 			(roundrect_rratio 0.25)
 			(chamfer_ratio 0.2928932188)
 			(chamfer top_left top_right bottom_left bottom_right)
-			(net "Net-(FB3-Pad1)")
+			(net "Net-(P1--12V)")
 			(pinfunction "-12V_NEG2")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -32981,7 +33956,7 @@
 			(roundrect_rratio 0.25)
 			(chamfer_ratio 0.2928932188)
 			(chamfer top_left top_right bottom_left bottom_right)
-			(net "Net-(FB2-Pad1)")
+			(net "Net-(P1-+12V)")
 			(pinfunction "+12V_POS1")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -32997,7 +33972,7 @@
 			(roundrect_rratio 0.25)
 			(chamfer_ratio 0.2928932188)
 			(chamfer top_left top_right bottom_left bottom_right)
-			(net "Net-(FB2-Pad1)")
+			(net "Net-(P1-+12V)")
 			(pinfunction "+12V_POS2")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
@@ -33071,7 +34046,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/1adc172b-f7b5-4f68-8680-4bc9ed986cbe")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33197,7 +34178,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -33223,7 +34204,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/5b837aca-ae85-4f54-a642-93001bb1503a")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33359,9 +34346,28 @@
 				)
 			)
 		)
+		(property "IPN" "Eurorack Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fd2ddad-4af6-4ef9-9b3d-b169aa32fed6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/b43e8439-40a3-4ab1-8fac-8807f38f55f6")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "TIP" "NORM" "GND")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -6)
@@ -33626,7 +34632,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial Marker"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33652,7 +34658,13 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/178ad3ca-b6ef-4ed1-97e2-ca6e6a6b96e2")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -33763,7 +34775,13 @@
 		(property ki_fp_filters "CP_*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/6ee63568-56b0-4ba2-a778-90c32cf89a09")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34188,9 +35206,28 @@
 				)
 			)
 		)
+		(property "IPN" "Eurorack Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc289ac7-2374-4ee7-b3a7-161ce1b467b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/ba32ff88-78e1-4acb-b86e-ba6fdb5ee687")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "TIP" "NORM" "GND")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -6)
@@ -34455,7 +35492,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -34481,7 +35518,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/1a5dfb0a-3a23-4518-8cca-8136b99d2d2f")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34607,7 +35650,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -34633,7 +35676,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/59fe149b-6e9a-4f4e-b45b-5577a55a4136")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34769,9 +35818,28 @@
 				)
 			)
 		)
+		(property "IPN" "Eurorack Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8252c05-7ee3-47b9-b9f2-c98a49a91908")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/3bd9eeea-8402-4f1d-aa2b-cd76ffba6042")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "TIP" "NORM" "GND")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -6)
@@ -35040,7 +36108,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35053,7 +36121,13 @@
 		)
 		(path "/0fd2c796-fc28-4dbb-a19a-be32e6f577a0/88dbe3eb-19a6-4c9a-aee6-89ec4e0af2d9")
 		(sheetname "/Peripherals/")
-		(sheetfile "Seed3-DevKit-Eurorack_2.kicad_sch")
+		(sheetfile "Peripherals.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.65 -2.65)
@@ -35513,8 +36587,14 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/6143c2b0-57a5-482d-b562-58689d4c211f")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
-		(attr smd)
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -35607,7 +36687,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/77e4d780-267a-402f-a3a4-f7380220dbf0")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35743,9 +36829,28 @@
 				)
 			)
 		)
+		(property "IPN" "Eurorack Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85da1b66-a56f-43a4-82ee-0fed003b2340")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/ab1616ee-e62f-4546-9f94-f6a71f93d074")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "TIP" "NORM" "GND")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -6)
@@ -36034,9 +37139,31 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/ce737426-65fc-4834-a341-be909d9b02d9")
+		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/6d547d79-dd52-4e39-ba31-ef411cd5e39d")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "7")
+			)
+			(unit
+				(name "C")
+				(pins "10" "9" "8")
+			)
+			(unit
+				(name "D")
+				(pins "12" "13" "14")
+			)
+			(unit
+				(name "E")
+				(pins "4" "11")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36468,7 +37595,13 @@
 		(property ki_fp_filters "CP_*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/700c7ffa-4f4c-4fbf-a490-e9925279d203")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36909,7 +38042,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/8ac0f333-c20d-483d-92e3-63f5c342ec5d")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37035,7 +38174,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37061,7 +38200,13 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/261e23a6-bf13-4efc-ae0f-25dff4125e2b")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37122,7 +38267,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(FB3-Pad1)")
+			(net "Net-(P1--12V)")
 			(pintype "passive")
 			(uuid "5af56933-fad9-43e8-96ee-1e0e0e4d7837")
 		)
@@ -37213,7 +38358,13 @@
 		(property ki_fp_filters "CP_*")
 		(path "/a3979ae8-4ed5-41d9-a6ef-87d859172585/05f46704-512a-455d-9341-56152f71da25")
 		(sheetname "/Power/")
-		(sheetfile "Seed3-DevKit-Eurorack_4.kicad_sch")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37628,7 +38779,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -37654,7 +38805,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b2297a72-db37-46bb-8b2e-2b8f47454008/032f2190-b858-4198-b87f-3a8d352b966f")
 		(sheetname "/Daisy/")
-		(sheetfile "Seed3-DevKit-Eurorack_1.kicad_sch")
+		(sheetfile "Daisy.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -40250,38 +41407,6 @@
 		(layer "F.Cu")
 		(net "Net-(Q2-B)")
 		(uuid "d581a6b4-5f45-45be-8bb1-b10b1e6a8536")
-	)
-	(segment
-		(start 66.1675 55.5125)
-		(end 67.945 55.5125)
-		(width 0.4064)
-		(layer "F.Cu")
-		(net "Net-(FB2-Pad1)")
-		(uuid "61f5226d-bc59-4d91-944e-83a19aa6d5fe")
-	)
-	(segment
-		(start 63.5 54.75)
-		(end 65.405 54.75)
-		(width 0.4064)
-		(layer "F.Cu")
-		(net "Net-(FB2-Pad1)")
-		(uuid "6a72775b-8ad0-4177-bdb0-99fd744c00f1")
-	)
-	(segment
-		(start 60.96 54.75)
-		(end 63.5 54.75)
-		(width 0.4064)
-		(layer "F.Cu")
-		(net "Net-(FB2-Pad1)")
-		(uuid "72cfcf91-c1f9-4b95-b25c-db3d8d47e386")
-	)
-	(segment
-		(start 65.405 54.75)
-		(end 66.1675 55.5125)
-		(width 0.4064)
-		(layer "F.Cu")
-		(net "Net-(FB2-Pad1)")
-		(uuid "fd9ec767-23f9-4ce9-bece-f9dbf846031a")
 	)
 	(segment
 		(start 67.945 57.1625)
@@ -50018,30 +51143,6 @@
 		(uuid "c7ff3a28-66c2-4d18-8445-629ba6b4d09b")
 	)
 	(segment
-		(start 67.945 65.6075)
-		(end 64.1975 65.6075)
-		(width 0.4064)
-		(layer "F.Cu")
-		(net "Net-(FB3-Pad1)")
-		(uuid "74545cc8-f91f-4e27-8289-374b7e7e9867")
-	)
-	(segment
-		(start 60.96 64.91)
-		(end 63.5 64.91)
-		(width 0.4064)
-		(layer "F.Cu")
-		(net "Net-(FB3-Pad1)")
-		(uuid "d396292f-173a-4fba-904b-f79d5f2177e7")
-	)
-	(segment
-		(start 64.1975 65.6075)
-		(end 63.5 64.91)
-		(width 0.4064)
-		(layer "F.Cu")
-		(net "Net-(FB3-Pad1)")
-		(uuid "fe3905cf-10f9-475d-a815-3a57364ba266")
-	)
-	(segment
 		(start 82.805 77.675)
 		(end 81.5325 77.675)
 		(width 0.254)
@@ -50154,6 +51255,62 @@
 		(layer "B.Cu")
 		(net "Net-(J_CV_IN_4-PadTIP)")
 		(uuid "fa470865-bd19-41af-bc9d-76f0d4778b08")
+	)
+	(segment
+		(start 66.1675 55.5125)
+		(end 67.945 55.5125)
+		(width 0.4064)
+		(layer "F.Cu")
+		(net "Net-(P1-+12V)")
+		(uuid "61f5226d-bc59-4d91-944e-83a19aa6d5fe")
+	)
+	(segment
+		(start 63.5 54.75)
+		(end 65.405 54.75)
+		(width 0.4064)
+		(layer "F.Cu")
+		(net "Net-(P1-+12V)")
+		(uuid "6a72775b-8ad0-4177-bdb0-99fd744c00f1")
+	)
+	(segment
+		(start 60.96 54.75)
+		(end 63.5 54.75)
+		(width 0.4064)
+		(layer "F.Cu")
+		(net "Net-(P1-+12V)")
+		(uuid "72cfcf91-c1f9-4b95-b25c-db3d8d47e386")
+	)
+	(segment
+		(start 65.405 54.75)
+		(end 66.1675 55.5125)
+		(width 0.4064)
+		(layer "F.Cu")
+		(net "Net-(P1-+12V)")
+		(uuid "fd9ec767-23f9-4ce9-bece-f9dbf846031a")
+	)
+	(segment
+		(start 67.945 65.6075)
+		(end 64.1975 65.6075)
+		(width 0.4064)
+		(layer "F.Cu")
+		(net "Net-(P1--12V)")
+		(uuid "74545cc8-f91f-4e27-8289-374b7e7e9867")
+	)
+	(segment
+		(start 60.96 64.91)
+		(end 63.5 64.91)
+		(width 0.4064)
+		(layer "F.Cu")
+		(net "Net-(P1--12V)")
+		(uuid "d396292f-173a-4fba-904b-f79d5f2177e7")
+	)
+	(segment
+		(start 64.1975 65.6075)
+		(end 63.5 64.91)
+		(width 0.4064)
+		(layer "F.Cu")
+		(net "Net-(P1--12V)")
+		(uuid "fe3905cf-10f9-475d-a815-3a57364ba266")
 	)
 	(zone
 		(net "GND")
