@@ -1,5 +1,9 @@
 # PCB changelog
 
+## Rev3 
+
+- Added missing 1N4148 diode in MIDI circuit.
+
 ## Rev2
 
 - Fixed Height of the module to be eurorack frontpanel standard (128.5mm)
