@@ -16,4 +16,5 @@
 	(lib (name "Electrosmith-Interface") (type "EAGLE") (uri "/Users/stephenhensley/Developer/repos/ES_Eagle_Lib/lbr/Electrosmith-Interface.lbr") (options "") (descr ""))
 	(lib (name "Electrosmith-IC") (type "EAGLE") (uri "/Users/stephenhensley/Developer/repos/ES_Eagle_Lib/lbr/Electrosmith-IC.lbr") (options "") (descr ""))
 	(lib (name "Electrosmith-Connectors") (type "EAGLE") (uri "/Users/stephenhensley/Developer/repos/ES_Eagle_Lib/lbr/Electrosmith-Connectors.lbr") (options "") (descr ""))
+	(lib (name "PartsFromEagle") (type "KiCad") (uri "${KIPRJMOD}/libs/PartsFromEagle.kicad_sym") (options "") (descr ""))
 )

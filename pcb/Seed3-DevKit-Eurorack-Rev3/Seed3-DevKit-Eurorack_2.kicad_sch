@@ -5,6 +5,161 @@
 	(uuid "2e56ea58-93e7-4856-81fe-f15b86ae7cbe")
 	(paper "User" 425.45 298.602)
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -61,6 +216,17 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -714,6 +880,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N4148WS"
 			(pin_numbers
 				(hide yes)
@@ -894,502 +1249,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Electrosmith-Interface:EURO_JACK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -2.54 4.064 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -6.096 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Electrosmith-Interface:S_JACK"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "EURO_JACK_1_0"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 4.572 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.524) (xy -0.508 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 2.286) (xy -1.016 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.524) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 1.524 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.016) (xy 2.286 1.778)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.588 -2.794)
-					(end 4.572 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "NORM"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "NORM"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "TIP"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "TIP"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Electrosmith-Interface:STEREO_JACK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -2.54 4.064 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -6.096 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Electrosmith-Interface:STEREO_JACK_3.5MM"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "STEREO_JACK_1_0"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 4.572 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.524) (xy -0.508 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 2.286) (xy -1.016 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.524) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 1.524 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.016) (xy 2.286 1.778)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.588 -2.794)
-					(end 4.572 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "NORM"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "RING"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "TIP"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "TIP"
-						(effects
-							(font
-								(size 1.524 1.524)
 							)
 						)
 					)
@@ -1717,26 +1576,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3"
-			(power global)
+		(symbol "PartsFromEagle:EURO_JACK"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#SUPPLY"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -1.905 5.715 0)
+			(property "Reference" "J"
+				(at -2.54 4.064 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1746,7 +1593,18 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Value" ""
+				(at -2.54 -6.096 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PartsFromEagle:EURO_JACK_3.5MM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1779,137 +1637,8 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_1_0"
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy 0.635 3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.81)
-					(radius 1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.81)
-					(radius 1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 4.445)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(name "+3V3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3_A"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#SUPPLY"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -1.905 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "IPN" "Eurorack Jack"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1929,10 +1658,10 @@
 					)
 				)
 			)
-			(symbol "+3V3_A_1_0"
+			(symbol "EURO_JACK_1_0"
 				(polyline
 					(pts
-						(xy -0.381 4.318) (xy 0.381 4.318)
+						(xy -2.54 2.54) (xy 0 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -1944,7 +1673,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.127 3.1115) (xy 0.127 3.1115)
+						(xy -2.54 0) (xy -0.762 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -1956,7 +1685,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.937) (xy 0 4.699)
+						(xy -2.54 -2.54) (xy 4.572 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -1966,20 +1695,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 3.81)
-					(radius 1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -0.508 1.524)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.81)
-					(radius 1.27)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1990,7 +1709,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.556) (xy -0.254 2.921)
+						(xy -0.762 2.286) (xy -1.016 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.762 2.286)
 					)
 					(stroke
 						(width 0.1524)
@@ -2002,7 +1733,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.556) (xy 0.254 2.921)
+						(xy -0.508 1.524) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.524 1.016)
 					)
 					(stroke
 						(width 0.1524)
@@ -2012,490 +1755,31 @@
 						(type none)
 					)
 				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(name "+3V3_A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
+				(polyline
+					(pts
+						(xy 1.524 1.016) (xy 2.286 1.778)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 1.524 0.381 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.524 -4.699 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Seed3-Pedal-DevKit-Converted:C0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "CAPACITOR, European symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Electrosmith-Passives_C-EUC0402_1_0"
 				(rectangle
-					(start -2.032 -1.016)
-					(end 2.032 -0.508)
+					(start 5.588 -2.794)
+					(end 4.572 2.794)
 					(stroke
-						(width 0)
+						(width -0.0001)
 						(type default)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start -2.032 -2.032)
-					(end 2.032 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Seed3-Pedal-DevKit-Converted:R0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "RESISTOR, American symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Electrosmith-Passives_R-US_R0603_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:GND"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#GND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SUPPLY SYMBOL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_1_0"
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
+					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2504,10 +1788,46 @@
 							)
 						)
 					)
-					(number "1"
+					(number "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "NORM"
 						(effects
 							(font
 								(size 0 0)
+							)
+						)
+					)
+					(number "NORM"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "TIP"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "TIP"
+						(effects
+							(font
+								(size 1.524 1.524)
 							)
 						)
 					)
@@ -2515,7 +1835,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:POT_9MM_SNAP-IN__SILK_PIP"
+		(symbol "PartsFromEagle:POT_9MM_SNAP-IN"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2543,7 +1863,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Seed3-Pedal-DevKit-Converted:9MM_SNAP-IN_POT_SILK_PIP"
+			(property "Footprint" "PartsFromEagle:9MM_SNAP-IN_POT_SILK"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2586,7 +1906,7 @@
 					)
 				)
 			)
-			(symbol "POT_9MM_SNAP-IN__SILK_PIP_1_0"
+			(symbol "POT_9MM_SNAP-IN_1_0"
 				(polyline
 					(pts
 						(xy -1.016 3.81) (xy 0 4.572)
@@ -2848,120 +2168,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:SparkFun_GND"
-			(power global)
+		(symbol "PartsFromEagle:STEREO_EURO_JACK"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#GND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SUPPLY SYMBOL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SparkFun_GND_1_0"
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:TOGGLE_ON_OFF_ON_PIP2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 5.08 -2.54 90)
+			(property "Reference" "J"
+				(at -2.54 4.064 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2972,7 +2186,7 @@
 				)
 			)
 			(property "Value" ""
-				(at 7.62 -2.54 90)
+				(at -2.54 -6.096 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2982,7 +2196,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Seed3-Pedal-DevKit-Converted:TOGGLE_SILK_PIP3"
+			(property "Footprint" "PartsFromEagle:STEREO_EURO_JACK_3.5MM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3025,7 +2239,791 @@
 					)
 				)
 			)
-			(symbol "TOGGLE_ON_OFF_ON_PIP2_1_0"
+			(symbol "STEREO_EURO_JACK_1_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 4.572 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -0.508 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 2.286) (xy -1.016 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.524) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.524 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.016) (xy 2.286 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.588 -2.794)
+					(end 4.572 2.794)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "NORM"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "RING"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "TIP"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "TIP"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PartsFromEagle:TAC_SWITCH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at -2.54 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PartsFromEagle:TL1105SPF250Q_SILK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Momentary Switch Button commonly used for reset or general input. Spark Fun Electronics SKU : COM-00097"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN" "Mini Button"
+				(at 0 -7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TL1105SPF250Q"
+				(at 0 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TAC_SWITCH_1_0"
+				(circle
+					(center -2.54 0)
+					(radius 0.127)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 4.445) (xy -1.905 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.445) (xy -1.905 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.445) (xy 0 3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 4.445) (xy 0 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 4.445) (xy 1.905 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.127)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PartsFromEagle:TOGGLE_ON-ON"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 5.08 -2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 7.62 -2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PartsFromEagle:TOGGLE_ON_ON_2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TOGGLE_ON-ON_1_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.524 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.524 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.175) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "O"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "P"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PartsFromEagle:TOGGLE_ON_OFF_ON"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 5.08 -2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 7.62 -2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PartsFromEagle:TOGGLE_ON_OFF_ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TOGGLE_ON_OFF_ON_1_0"
 				(polyline
 					(pts
 						(xy -2.54 2.54) (xy -2.54 3.175)
@@ -3197,18 +3195,7 @@
 					)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MF" "HRO Electronics Co., Ltd."
+			(property "Description" "Standard Card Edge Connectors"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3220,7 +3207,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Description_1" "\n                        \n                            Standard Card Edge Connectors\n                        \n"
+			(property "MF" "HRO Electronics Co., Ltd."
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3774,35 +3761,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "parts-for-kicad:TAC_SWITCH_PTH_SILK"
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "S"
-				(at -2.54 6.35 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at -2.54 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "parts-for-kicad:TL1105SPF250Q_SILK"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3824,7 +3818,7 @@
 					)
 				)
 			)
-			(property "Description" "Momentary Switch Button commonly used for reset or general input. Spark Fun Electronics SKU : COM-00097"
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3835,23 +3829,25 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "TAC_SWITCH_PTH_SILK_1_0"
-				(circle
-					(center -2.54 0)
-					(radius 0.127)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
 					(stroke
-						(width 0.4064)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -3859,11 +3855,11 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 1.905 1.27)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -3871,200 +3867,29 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -2.54) (xy -2.54 0)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.905 4.445) (xy -1.905 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.445) (xy -1.905 4.445)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.445) (xy 0 3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 4.445) (xy 0 4.445)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 4.445) (xy 1.905 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.127)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4075,35 +3900,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "parts-for-kicad:TOGGLE_ON-ON_PIP3"
+		(symbol "power:+3.3VA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 5.08 -2.54 90)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3VA"
+				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at 7.62 -2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "parts-for-kicad:TOGGLE_SILK_PIP3"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4125,7 +3957,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4136,24 +3968,25 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "TOGGLE_ON-ON_PIP3_1_0"
+			(symbol "+3.3VA_0_1"
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy -2.54 3.175)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -4161,11 +3994,11 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy -1.27 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -4173,71 +4006,25 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy -1.524 3.048)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.524 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.175) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 5.08 270)
-					(length 2.54)
-					(name "O"
+			)
+			(symbol "+3.3VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4249,35 +4036,114 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "P"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(number "2"
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4400,6 +4266,12 @@
 		(uuid "3373298e-a0cf-45c8-8274-4645e9d251d0")
 	)
 	(junction
+		(at 111.76 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ad21fff-7bde-4316-b5be-9e73ae1e52ae")
+	)
+	(junction
 		(at 52.07 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4490,22 +4362,16 @@
 		(uuid "8593eba5-80a5-4b80-85d0-c803d6afe83c")
 	)
 	(junction
-		(at 95.25 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85a4b748-d32e-4754-a6a4-63ee5bd8f18b")
-	)
-	(junction
 		(at 85.09 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88a2bb2c-a843-42b5-a8a3-7f8036f63766")
 	)
 	(junction
-		(at 110.49 189.23)
+		(at 93.98 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "967df37e-435e-4ddd-a7bc-eb5c2676439d")
+		(uuid "950c2dc1-c655-4848-bc86-4389856aa60d")
 	)
 	(junction
 		(at 57.15 133.35)
@@ -4514,7 +4380,7 @@
 		(uuid "a4b1cec3-3b80-4c8c-8453-1d024dc35c81")
 	)
 	(junction
-		(at 166.37 83.82)
+		(at 165.1 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8bf50bc-423e-4693-b5ff-5468920133bb")
@@ -4526,7 +4392,7 @@
 		(uuid "a91c1271-b094-403f-9078-1a3c2bd6a357")
 	)
 	(junction
-		(at 151.13 81.28)
+		(at 149.86 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab422915-c872-4dc7-a1a8-046223155dde")
@@ -4609,17 +4475,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 189.23) (xy 110.49 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04894bbf-dc81-475f-b76e-22ac7501f1a7")
-	)
-	(wire
-		(pts
-			(xy 52.07 161.29) (xy 52.07 189.23)
+			(xy 52.07 160.02) (xy 52.07 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4629,33 +4485,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 142.24) (xy 252.73 142.24)
+			(xy 242.57 142.24) (xy 254 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "09fd4032-f533-4b33-938e-0f16fcf579ef")
-	)
-	(wire
-		(pts
-			(xy 110.49 186.69) (xy 110.49 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cf38152-2c9b-4df1-a505-cddacb958331")
-	)
-	(wire
-		(pts
-			(xy 195.58 173.99) (xy 195.58 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0de1ca63-8177-4581-b1d5-182a4a02092b")
 	)
 	(wire
 		(pts
@@ -4666,6 +4502,16 @@
 			(type solid)
 		)
 		(uuid "0e1da1a9-0ef8-413e-8595-bee730d4bfc4")
+	)
+	(wire
+		(pts
+			(xy 171.45 173.99) (xy 172.72 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec30b89-186e-4732-a117-2d32bb4760ba")
 	)
 	(wire
 		(pts
@@ -4699,6 +4545,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 64.77) (xy 269.24 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c79eac-8f2a-4471-8784-a8b7dd64c969")
+	)
+	(wire
+		(pts
 			(xy 142.24 38.1) (xy 142.24 35.56)
 		)
 		(stroke
@@ -4709,6 +4565,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 168.91) (xy 172.72 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18af38b4-9296-4233-99db-e64913cdd94e")
+	)
+	(wire
+		(pts
 			(xy 57.15 133.35) (xy 57.15 146.05)
 		)
 		(stroke
@@ -4716,6 +4582,26 @@
 			(type solid)
 		)
 		(uuid "1970040b-38b1-43bb-b022-b1bde1754bfa")
+	)
+	(wire
+		(pts
+			(xy 111.76 189.23) (xy 111.76 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197ba5f6-2882-49e3-9200-f77d6c45dc24")
+	)
+	(wire
+		(pts
+			(xy 62.23 140.97) (xy 62.23 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f17034-ae93-458c-8877-062afdcbd654")
 	)
 	(wire
 		(pts
@@ -4739,6 +4625,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 142.24) (xy 266.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be7be43-89cf-481b-aa96-7a53c921172f")
+	)
+	(wire
+		(pts
 			(xy 300.99 67.31) (xy 300.99 57.15)
 		)
 		(stroke
@@ -4749,17 +4645,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 189.23) (xy 110.49 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e114d75-6ded-412d-9e11-a7e3cb03222f")
-	)
-	(wire
-		(pts
-			(xy 287.02 74.93) (xy 287.02 77.47)
+			(xy 287.02 74.93) (xy 287.02 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4799,13 +4685,13 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 64.77) (xy 269.24 64.77)
+			(xy 163.83 146.05) (xy 165.1 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "241095c2-07ce-4572-b528-2e27f2472bca")
+		(uuid "233cfff7-c3a1-484c-8ed1-ecd96e3099eb")
 	)
 	(wire
 		(pts
@@ -4839,13 +4725,23 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 160.02) (xy 358.14 156.21)
+			(xy 337.82 38.1) (xy 337.82 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e876c9a-3545-460a-ba4e-f1899f141476")
+		(uuid "2acd744a-06ee-4653-b133-43b88cd997c7")
+	)
+	(wire
+		(pts
+			(xy 107.95 189.23) (xy 111.76 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c65ee56-58a9-4cde-a3aa-583b0dd9e4f1")
 	)
 	(wire
 		(pts
@@ -4859,13 +4755,13 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 142.24) (xy 266.7 146.05)
+			(xy 266.7 154.94) (xy 266.7 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30023179-d5ba-408d-af62-bb0d2fccabb0")
+		(uuid "303a7b79-46c4-46cb-8532-de16e552f9cd")
 	)
 	(wire
 		(pts
@@ -4879,7 +4775,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 173.99) (xy 160.02 173.99)
+			(xy 160.02 173.99) (xy 163.83 173.99)
 		)
 		(stroke
 			(width 0.1524)
@@ -4899,6 +4795,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 173.99) (xy 195.58 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e0e04b-b1f6-4170-a21a-c457a858ad28")
+	)
+	(wire
+		(pts
 			(xy 300.99 44.45) (xy 311.15 44.45)
 		)
 		(stroke
@@ -4909,7 +4815,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 83.82) (xy 151.13 83.82)
+			(xy 363.22 83.82) (xy 363.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325ecf77-ea08-410a-983e-567cd0aca817")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 149.86 83.82)
 		)
 		(stroke
 			(width 0.1524)
@@ -4919,7 +4835,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 55.88) (xy 95.25 55.88)
+			(xy 85.09 55.88) (xy 93.98 55.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -4939,7 +4855,17 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 134.62) (xy 378.46 134.62)
+			(xy 171.45 179.07) (xy 172.72 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b9e9f5-e60b-4072-ac26-fc687464affb")
+	)
+	(wire
+		(pts
+			(xy 369.57 134.62) (xy 379.73 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5029,23 +4955,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 58.42) (xy 95.25 55.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3b265cfb-7aaa-4562-9d3c-74f67c5a503f")
-	)
-	(wire
-		(pts
-			(xy 363.22 60.96) (xy 365.76 60.96)
+			(xy 353.06 142.24) (xy 358.14 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b6afcad-a97d-40ac-b0c5-a6dd090f808f")
+		(uuid "3b79baad-7cc6-40b7-a948-e2f7a5de47ac")
+	)
+	(wire
+		(pts
+			(xy 67.31 144.78) (xy 67.31 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bea804e-9d97-4d0b-9bf5-733633bf6e46")
 	)
 	(polyline
 		(pts
@@ -5056,6 +4982,16 @@
 			(type solid)
 		)
 		(uuid "3ce8a81d-8f17-47fb-aac5-da7418317456")
+	)
+	(wire
+		(pts
+			(xy 347.98 45.72) (xy 353.06 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ecdc611-d486-4692-ad60-18b169242454")
 	)
 	(polyline
 		(pts
@@ -5089,16 +5025,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 118.11) (xy 369.57 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "426668b4-ec69-4098-99fa-1813c3752892")
-	)
-	(wire
-		(pts
 			(xy 300.99 41.91) (xy 300.99 44.45)
 		)
 		(stroke
@@ -5129,13 +5055,13 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 38.1) (xy 330.2 36.83)
+			(xy 111.76 171.45) (xy 111.76 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4669d9de-6202-49a2-9fce-3baf40f01cac")
+		(uuid "460ca046-b9af-4000-9e6a-c3af9db7f4f1")
 	)
 	(wire
 		(pts
@@ -5149,17 +5075,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 130.81) (xy 278.13 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49cae88f-2238-42cd-972b-6a241cfe99f8")
-	)
-	(wire
-		(pts
-			(xy 358.14 142.24) (xy 358.14 146.05)
+			(xy 358.14 142.24) (xy 358.14 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5169,7 +5085,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 83.82) (xy 151.13 81.28)
+			(xy 149.86 83.82) (xy 149.86 81.28)
 		)
 		(stroke
 			(width 0.1524)
@@ -5179,13 +5095,13 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 44.45) (xy 349.25 45.72)
+			(xy 300.99 55.88) (xy 300.99 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c6fea1b-aa0c-4141-83f8-2552ea4c3fa1")
+		(uuid "4e1a9aa6-9d0b-4062-9a58-eff13d85dfdf")
 	)
 	(wire
 		(pts
@@ -5299,16 +5215,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 142.24) (xy 358.14 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56f1ae71-9cee-4847-ba99-1645e65c8d47")
-	)
-	(wire
-		(pts
 			(xy 344.17 160.02) (xy 358.14 160.02)
 		)
 		(stroke
@@ -5319,7 +5225,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 60.96) (xy 353.06 60.96)
+			(xy 350.52 60.96) (xy 354.33 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5336,16 +5242,6 @@
 			(type solid)
 		)
 		(uuid "590018db-3319-430b-931f-158cb8f3e529")
-	)
-	(wire
-		(pts
-			(xy 388.62 134.62) (xy 392.43 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59a2ee6e-8fbd-473c-b6cd-5d2e531fe74a")
 	)
 	(polyline
 		(pts
@@ -5369,7 +5265,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 81.28) (xy 148.59 81.28)
+			(xy 149.86 81.28) (xy 147.32 81.28)
 		)
 		(stroke
 			(width 0.1524)
@@ -5399,23 +5295,23 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 44.45) (xy 349.25 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fdbe1f0-4992-401f-80a0-d9ed2f232eb9")
-	)
-	(wire
-		(pts
-			(xy 334.01 142.24) (xy 344.17 142.24)
+			(xy 334.01 142.24) (xy 345.44 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "601d36dd-9090-4b26-8b6b-33e2d9595d22")
+	)
+	(wire
+		(pts
+			(xy 278.13 129.54) (xy 278.13 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "606053e1-7fc5-4417-9350-4a6789554788")
 	)
 	(wire
 		(pts
@@ -5429,6 +5325,36 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 46.99) (xy 337.82 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6207cbff-3868-4283-b6fc-e595bb4998d0")
+	)
+	(wire
+		(pts
+			(xy 52.07 151.13) (xy 52.07 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63296775-da51-4818-ae36-d04b77262b80")
+	)
+	(wire
+		(pts
+			(xy 256.54 64.77) (xy 257.81 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f5be40-79c4-4866-9b34-6dce348901d4")
+	)
+	(wire
+		(pts
 			(xy 124.46 35.56) (xy 142.24 35.56)
 		)
 		(stroke
@@ -5436,16 +5362,6 @@
 			(type default)
 		)
 		(uuid "64ccfbd2-6ccb-441e-8310-c863841eb6bd")
-	)
-	(wire
-		(pts
-			(xy 363.22 83.82) (xy 363.22 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "657c3bd9-8fee-4140-86b4-b31bf5cbd673")
 	)
 	(wire
 		(pts
@@ -5459,13 +5375,23 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 156.21) (xy 57.15 176.53)
+			(xy 57.15 146.05) (xy 57.15 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67f48ded-2743-4363-8736-9dec1461635c")
+		(uuid "68e1e847-cc4a-470d-abc1-df748b6fd194")
+	)
+	(wire
+		(pts
+			(xy 172.72 146.05) (xy 182.88 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6de046-8644-4578-afc9-b009893bfb85")
 	)
 	(wire
 		(pts
@@ -5489,13 +5415,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 81.28) (xy 166.37 83.82)
+			(xy 165.1 81.28) (xy 165.1 83.82)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "702c2acc-253b-4ec3-b3d1-bc29acdcae07")
+	)
+	(wire
+		(pts
+			(xy 347.98 45.72) (xy 347.98 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "713cabf6-9599-459b-b7ac-81508cb328e1")
 	)
 	(wire
 		(pts
@@ -5539,7 +5475,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 83.82) (xy 166.37 83.82)
+			(xy 162.56 83.82) (xy 165.1 83.82)
 		)
 		(stroke
 			(width 0.1524)
@@ -5589,7 +5525,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 81.28) (xy 166.37 81.28)
+			(xy 162.56 81.28) (xy 165.1 81.28)
 		)
 		(stroke
 			(width 0.1524)
@@ -5599,7 +5535,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 118.11) (xy 278.13 120.65)
+			(xy 278.13 118.11) (xy 278.13 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5619,16 +5555,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 160.02) (xy 266.7 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8407576a-0e16-4784-ab4f-62631fe9149e")
-	)
-	(wire
-		(pts
 			(xy 266.7 142.24) (xy 270.51 142.24)
 		)
 		(stroke
@@ -5639,7 +5565,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 78.74) (xy 353.06 78.74)
+			(xy 350.52 78.74) (xy 354.33 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5739,26 +5665,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 134.62) (xy 300.99 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94fed91c-1b4e-4cb6-934d-4548c23fd772")
-	)
-	(wire
-		(pts
-			(xy 95.25 55.88) (xy 105.41 55.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "98a61dd3-81bf-48c6-96c2-e57d038828ca")
-	)
-	(wire
-		(pts
 			(xy 95.25 35.56) (xy 105.41 35.56)
 		)
 		(stroke
@@ -5789,13 +5695,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 146.05) (xy 182.88 146.05)
+			(xy 387.35 134.62) (xy 392.43 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9db599ba-8382-467c-bf73-2b04b6ea25cb")
+		(uuid "9d305b99-715a-4e5e-aac9-67c94016da51")
 	)
 	(wire
 		(pts
@@ -5839,6 +5745,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 78.74) (xy 365.76 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ec8f0c-7c41-4afa-a7da-1447afc0c2de")
+	)
+	(wire
+		(pts
 			(xy 185.42 81.28) (xy 187.96 81.28)
 		)
 		(stroke
@@ -5869,7 +5785,17 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 130.81) (xy 369.57 134.62)
+			(xy 369.57 118.11) (xy 369.57 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e68d69-7c17-45ec-84e5-8adde08c870d")
+	)
+	(wire
+		(pts
+			(xy 369.57 129.54) (xy 369.57 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5959,6 +5885,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 55.88) (xy 93.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfda5cc-20a5-4963-a126-4ff81075a782")
+	)
+	(wire
+		(pts
 			(xy 200.66 83.82) (xy 200.66 86.36)
 		)
 		(stroke
@@ -6009,7 +5945,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 81.28) (xy 153.67 81.28)
+			(xy 149.86 81.28) (xy 152.4 81.28)
 		)
 		(stroke
 			(width 0.1524)
@@ -6019,17 +5955,17 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 78.74) (xy 365.76 78.74)
+			(xy 46.99 156.21) (xy 46.99 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0cf5e7a-742c-4463-8137-587739d76d9b")
+		(uuid "b220da3b-f358-4c39-a219-357bc3ccc3c2")
 	)
 	(wire
 		(pts
-			(xy 365.76 41.91) (xy 361.95 41.91)
+			(xy 365.76 41.91) (xy 360.68 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6046,6 +5982,16 @@
 			(type default)
 		)
 		(uuid "b4f613c4-d7f5-42e2-9f0e-ba66bd2a9540")
+	)
+	(wire
+		(pts
+			(xy 358.14 154.94) (xy 358.14 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50a39a4-359e-41fb-9a4c-5a9b2bb165a5")
 	)
 	(polyline
 		(pts
@@ -6089,6 +6035,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 186.69) (xy 111.76 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b27b8d-899a-4c7d-875e-56f39836cb7c")
+	)
+	(wire
+		(pts
 			(xy 43.18 80.01) (xy 43.18 82.55)
 		)
 		(stroke
@@ -6099,13 +6055,23 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 146.05) (xy 67.31 184.15)
+			(xy 330.2 46.99) (xy 330.2 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb4929b6-6863-47c4-88ce-5459170b0706")
+		(uuid "bae0ea46-2217-4abf-b88f-71556edb0568")
+	)
+	(wire
+		(pts
+			(xy 266.7 142.24) (xy 266.7 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb8e3ec0-f05a-45b8-b5d7-8d584a8bb57f")
 	)
 	(wire
 		(pts
@@ -6119,23 +6085,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 179.07) (xy 160.02 179.07)
+			(xy 160.02 179.07) (xy 163.83 179.07)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "bbb47487-3b83-4065-b2c1-11ad968a1b26")
-	)
-	(wire
-		(pts
-			(xy 262.89 142.24) (xy 266.7 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbe14bfe-1c31-478f-a8f5-4e4f764d3bc0")
 	)
 	(wire
 		(pts
@@ -6179,6 +6135,26 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 154.94) (xy 57.15 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0fa3c6f-0fdd-42dd-b7e1-5cab7c8cdac5")
+	)
+	(wire
+		(pts
+			(xy 300.99 46.99) (xy 300.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c18097f4-0871-4b4e-ba6d-6a93c43952ae")
+	)
+	(wire
+		(pts
 			(xy 67.31 184.15) (xy 72.39 184.15)
 		)
 		(stroke
@@ -6209,6 +6185,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 135.89) (xy 67.31 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c325e31a-8eff-434f-830f-f3490c5a6bd5")
+	)
+	(wire
+		(pts
 			(xy 161.29 35.56) (xy 142.24 35.56)
 		)
 		(stroke
@@ -6216,6 +6202,16 @@
 			(type default)
 		)
 		(uuid "c3a06102-1994-4582-b9e7-74169416de01")
+	)
+	(wire
+		(pts
+			(xy 81.28 82.55) (xy 81.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5bed13b-809c-4ea2-832f-b3f2db4e09ff")
 	)
 	(wire
 		(pts
@@ -6259,13 +6255,33 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 83.82) (xy 166.37 86.36)
+			(xy 361.95 60.96) (xy 365.76 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc3e425-dab0-4986-ba92-fc5d1f501991")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 165.1 86.36)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "cc2e6965-6139-4f13-8113-eb66db2e2d81")
+	)
+	(wire
+		(pts
+			(xy 93.98 55.88) (xy 105.41 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ccfc4621-3a9c-4c19-9201-37bcfbac7ff1")
 	)
 	(wire
 		(pts
@@ -6309,7 +6325,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 41.91) (xy 361.95 44.45)
+			(xy 360.68 41.91) (xy 360.68 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6329,7 +6345,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 160.02) (xy 266.7 163.83)
+			(xy 266.7 160.02) (xy 266.7 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6359,7 +6375,17 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 134.62) (xy 287.02 134.62)
+			(xy 195.58 148.59) (xy 195.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8bdef59-33dd-412a-a332-550d09b0d1b9")
+	)
+	(wire
+		(pts
+			(xy 278.13 134.62) (xy 288.29 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6409,6 +6435,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 186.69) (xy 111.76 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee560e1-26f2-463e-b9e2-75258beec2be")
+	)
+	(wire
+		(pts
 			(xy 124.46 53.34) (xy 124.46 55.88)
 		)
 		(stroke
@@ -6419,13 +6455,13 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 66.04) (xy 363.22 67.31)
+			(xy 363.22 66.04) (xy 363.22 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4c2d457-2cea-4d28-ab18-2364783045a0")
+		(uuid "e767460e-0b80-4249-b7a1-4eeab3f60a1b")
 	)
 	(wire
 		(pts
@@ -6439,6 +6475,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 36.83) (xy 330.2 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83d7f80-9460-4efe-a2e1-faf7facf508f")
+	)
+	(wire
+		(pts
 			(xy 85.09 55.88) (xy 85.09 53.34)
 		)
 		(stroke
@@ -6449,7 +6495,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 151.13) (xy 62.23 181.61)
+			(xy 62.23 149.86) (xy 62.23 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6509,13 +6555,23 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 160.02) (xy 358.14 163.83)
+			(xy 358.14 160.02) (xy 358.14 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f080a817-a48a-4bc9-9a6b-a9c0938e95b2")
+	)
+	(wire
+		(pts
+			(xy 43.18 82.55) (xy 43.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b3adcd-5919-4c03-a671-dae0a522105d")
 	)
 	(wire
 		(pts
@@ -6549,23 +6605,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 166.37) (xy 46.99 186.69)
+			(xy 46.99 165.1) (xy 46.99 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f528778e-4eb9-4510-83b5-e471f1f27703")
-	)
-	(wire
-		(pts
-			(xy 107.95 186.69) (xy 110.49 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6361843-f822-43d2-b31a-3ede52977215")
 	)
 	(wire
 		(pts
@@ -6579,13 +6625,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 168.91) (xy 160.02 168.91)
+			(xy 160.02 168.91) (xy 163.83 168.91)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "fb13f1b4-2a36-4514-a2ac-994ebb100912")
+	)
+	(wire
+		(pts
+			(xy 295.91 134.62) (xy 300.99 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9d1c3b-ae93-4c89-adbc-5784426620c1")
 	)
 	(wire
 		(pts
@@ -6836,30 +6892,6 @@
 		(uuid "46a9c427-e930-40e1-8b70-f5ef24d306a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 313.6858 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "+3V3"
-		(shape bidirectional)
-		(at 111.76 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "4708bae4-c419-40c5-ab74-b0196ce7e601")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.7525 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7137,7 +7169,7 @@
 	)
 	(global_label "TAC_SW1"
 		(shape bidirectional)
-		(at 148.59 81.28 180)
+		(at 147.32 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7147,7 +7179,7 @@
 		)
 		(uuid "9e8ed85b-46b0-430c-a26b-a9b39cecd5b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.5748 81.28 0)
+			(at 135.3048 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7400,7 +7432,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:TOGGLE_ON_OFF_ON_PIP2")
+		(lib_id "PartsFromEagle:TOGGLE_ON_OFF_ON")
 		(at 88.9 80.01 270)
 		(unit 1)
 		(body_style 1)
@@ -7432,7 +7464,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:TOGGLE_ON_OFF_ON_SILK"
+		(property "Footprint" "PartsFromEagle:TOGGLE_ON_OFF_ON"
 			(at 88.9 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7484,8 +7516,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 81.28 85.09 0)
+		(lib_id "power:+3.3V")
+		(at 57.15 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7493,9 +7525,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "01c5ae94-7aaa-456b-8f5d-ff38928a45ea")
-		(property "Reference" "#GND033"
-			(at 81.28 85.09 0)
+		(fields_autoplaced yes)
+		(uuid "0235ba9c-3573-4fef-bec4-7781e656fd2c")
+		(property "Reference" "#PWR066"
+			(at 57.15 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7505,19 +7538,18 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 78.74 87.63 0)
+		(property "Value" "+3.3V"
+			(at 57.15 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 85.09 0)
+			(at 57.15 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7528,7 +7560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 85.09 0)
+			(at 57.15 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7538,8 +7570,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 81.28 85.09 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 57.15 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7550,20 +7582,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "56ae40f5-84a0-405e-8dce-94fb1a901d42")
+			(uuid "4ff8cd0e-a8a4-4377-be06-7d89a0f642af")
 		)
 		(instances
 			(project "Seed3-DevKit-Eurorack-Rev3"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#GND033")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 330.2 43.18 90)
+		(lib_id "Device:R_US")
+		(at 330.2 43.18 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7573,29 +7605,29 @@
 		(dnp no)
 		(uuid "02b90033-7074-4792-93eb-71a8649b2f6d")
 		(property "Reference" "R10"
-			(at 328.7014 46.99 0)
+			(at 331.47 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "10R"
-			(at 333.502 46.99 0)
+			(at 331.47 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 330.2 43.18 0)
+			(at 329.184 42.926 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7616,7 +7648,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 330.2 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7637,6 +7669,84 @@
 			(project "Seed3-DevKit-Eurorack-Rev3"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 363.22 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03382afe-4098-41da-bc7a-90b53f388310")
+		(property "Reference" "#PWR019"
+			(at 363.22 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 363.22 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 363.22 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5315c42a-2763-4021-b7a0-4288e1b77582")
+		)
+		(instances
+			(project "Seed3-DevKit-Eurorack-Rev3"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7698,7 +7808,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Standard Card Edge Connectors"
 			(at 90.17 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -7707,6 +7817,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "MF" "HRO Electronics Co., Ltd."
@@ -7854,8 +7965,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 166.37 88.9 0)
+		(lib_id "power:GND")
+		(at 81.28 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7863,9 +7974,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0ba8cee9-0764-43c9-82be-4fe7bb99dcb3")
-		(property "Reference" "#GND031"
-			(at 166.37 88.9 0)
+		(fields_autoplaced yes)
+		(uuid "190a4fde-d8ab-4de1-9861-4efd9a18f98a")
+		(property "Reference" "#PWR013"
+			(at 81.28 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7876,18 +7988,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 91.44 0)
+			(at 81.28 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 88.9 0)
+			(at 81.28 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7898,7 +8009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 88.9 0)
+			(at 81.28 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7908,8 +8019,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 166.37 88.9 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7920,20 +8031,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "da6ff375-e1fe-46ab-84f5-f585f49a70fe")
+			(uuid "2e879c44-c62e-416a-a5f2-0b78503499e8")
 		)
 		(instances
 			(project "Seed3-DevKit-Eurorack-Rev3"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#GND031")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 266.7 151.13 90)
+		(lib_id "Device:R_US")
+		(at 266.7 151.13 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7941,31 +8052,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1a5dfb0a-3a23-4518-8cca-8136b99d2d2f")
 		(property "Reference" "R18"
-			(at 265.2014 154.94 0)
+			(at 264.16 149.225 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "1M"
-			(at 270.002 154.94 0)
+			(at 264.16 153.035 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 266.7 151.13 0)
+			(at 265.684 150.876 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7986,7 +8098,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 266.7 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8013,7 +8125,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Electrosmith-Interface:STEREO_JACK")
+		(lib_id "PartsFromEagle:STEREO_EURO_JACK")
 		(at 370.84 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -8025,7 +8137,7 @@
 		(fields_autoplaced yes)
 		(uuid "248fca02-5078-499e-b0b2-35ff9abf7aea")
 		(property "Reference" "J_MIDI_IN1"
-			(at 377.19 38.735 0)
+			(at 377.19 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8046,7 +8158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Electrosmith-Interface:STEREO_JACK_3.5MM"
+		(property "Footprint" "PartsFromEagle:STEREO_EURO_JACK_3.5MM"
 			(at 370.84 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8098,8 +8210,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3")
-		(at 369.57 118.11 0)
+		(lib_id "Device:R_US")
+		(at 292.1 134.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8107,187 +8219,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "249db1df-0b6c-4890-a3c5-6612e81cac31")
-		(property "Reference" "#SUPPLY05"
-			(at 369.57 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 367.665 112.395 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 369.57 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 369.57 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 369.57 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "00e1c8bd-b5ad-46ae-bdae-aebf07eb5e55")
-		)
-		(instances
-			(project "Seed3-DevKit-Eurorack-Rev3"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#SUPPLY05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:SparkFun_GND")
-		(at 363.22 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "27653aca-deae-49e3-b762-1374db0ef5f9")
-		(property "Reference" "#GND021"
-			(at 363.22 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 360.934 72.644 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 363.22 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 363.22 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "533de20d-0506-4c55-a927-9f45680a60a6")
-		)
-		(instances
-			(project "Seed3-DevKit-Eurorack-Rev3"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#GND021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 292.1 134.62 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "29860541-c995-47f7-84d2-e8228224e187")
 		(property "Reference" "R23"
-			(at 295.91 136.1186 0)
+			(at 292.1 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "100R"
-			(at 295.91 131.318 0)
+			(at 292.1 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 292.1 134.62 0)
+			(at 291.846 135.636 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8308,7 +8263,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 292.1 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8335,8 +8290,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 369.57 125.73 90)
+		(lib_id "Device:R_US")
+		(at 369.57 125.73 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8344,31 +8299,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "356d0315-268c-4623-8fce-023eb0be64b3")
 		(property "Reference" "R30"
-			(at 368.0714 129.54 0)
+			(at 372.11 123.825 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "10K"
-			(at 372.872 129.54 0)
+			(at 372.11 127.635 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 369.57 125.73 0)
+			(at 368.554 125.476 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8389,7 +8345,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 369.57 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8416,8 +8372,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 167.64 173.99 0)
+		(lib_id "Device:R_US")
+		(at 167.64 173.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8427,29 +8383,27 @@
 		(dnp no)
 		(uuid "37765a00-bb70-4519-975a-a3e91058d390")
 		(property "Reference" "R25"
-			(at 163.83 172.4914 0)
+			(at 162.814 172.212 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "2K"
-			(at 168.91 172.212 0)
+			(at 170.942 172.212 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 167.64 173.99 0)
+			(at 167.894 172.974 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8470,7 +8424,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 167.64 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8497,8 +8451,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 95.25 60.96 0)
+		(lib_id "Device:R_US")
+		(at 358.14 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8506,187 +8460,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3a7a8ecf-1074-4c2a-b86e-e478c64ca89d")
-		(property "Reference" "#GND024"
-			(at 95.25 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63f50e20-2327-453d-b962-3a7695f0f32b")
-		)
-		(instances
-			(project "Seed3-DevKit-Eurorack-Rev3"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#GND024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:SparkFun_GND")
-		(at 358.14 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3d91222c-9096-4a90-bfa3-259043794753")
-		(property "Reference" "#GND07"
-			(at 358.14 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 355.6 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 358.14 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 358.14 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d163a6d4-f15c-4a6b-b3e6-762bd13ed592")
-		)
-		(instances
-			(project "Seed3-DevKit-Eurorack-Rev3"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#GND07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 358.14 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3df61c3d-f305-4d6d-bb9e-09487a198c01")
 		(property "Reference" "R29"
-			(at 354.33 59.4614 0)
+			(at 358.14 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "10R"
-			(at 354.33 64.262 0)
+			(at 358.14 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 358.14 60.96 0)
+			(at 358.394 59.944 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8707,7 +8504,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 358.14 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8734,85 +8531,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3_A")
-		(at 95.25 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "402baa03-dbb2-4c97-bc20-ca5f418f2a0a")
-		(property "Reference" "#SUPPLY011"
-			(at 95.25 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3_A"
-			(at 95.885 27.305 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a69b9c58-b3b1-4724-9ac7-607de23fe8fe")
-		)
-		(instances
-			(project "Seed3-DevKit-Eurorack-Rev3"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#SUPPLY011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "parts-for-kicad:TAC_SWITCH_PTH_SILK")
+		(lib_id "PartsFromEagle:TAC_SWITCH")
 		(at 193.04 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -8844,7 +8563,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:TL1105SPF250Q_SILK"
+		(property "Footprint" "PartsFromEagle:TL1105SPF250Q_SILK"
 			(at 193.04 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8868,6 +8587,28 @@
 		)
 		(property "Description" "Momentary Switch Button commonly used for reset or general input. Spark Fun Electronics SKU : COM-00097"
 			(at 193.04 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "Mini Button"
+			(at 193.04 89.154 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TL1105SPF250Q"
+			(at 193.04 90.678 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8991,8 +8732,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 383.54 134.62 180)
+		(lib_id "Device:R_US")
+		(at 383.54 134.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9000,31 +8741,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "44162074-9e04-42dc-a894-b63b356796ec")
 		(property "Reference" "R31"
-			(at 387.35 136.1186 0)
+			(at 383.54 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "100R"
-			(at 387.35 131.318 0)
+			(at 383.54 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 383.54 134.62 0)
+			(at 383.286 135.636 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9045,7 +8785,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 383.54 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9072,7 +8812,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:POT_9MM_SNAP-IN__SILK_PIP")
+		(lib_id "PartsFromEagle:POT_9MM_SNAP-IN")
 		(at 199.39 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -9104,7 +8844,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
+		(property "Footprint" "PartsFromEagle:9MM_SNAP-IN_POT_SILK"
 			(at 199.39 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9126,7 +8866,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 199.39 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9156,8 +8896,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 278.13 125.73 90)
+		(lib_id "Device:R_US")
+		(at 278.13 125.73 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9165,31 +8905,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4cdcdffb-2732-4a8a-ad23-31fd91fe494a")
 		(property "Reference" "R19"
-			(at 276.6314 129.54 0)
+			(at 280.67 123.825 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "10K"
-			(at 281.432 129.54 0)
+			(at 280.67 127.635 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 278.13 125.73 0)
+			(at 277.114 125.476 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9210,7 +8951,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 278.13 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9237,8 +8978,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3")
-		(at 278.13 118.11 0)
+		(lib_id "power:GND")
+		(at 200.66 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9246,9 +8987,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4dc978c2-c8f7-47c1-a494-3d1b9979931b")
-		(property "Reference" "#SUPPLY03"
-			(at 278.13 118.11 0)
+		(fields_autoplaced yes)
+		(uuid "4cfff438-c08c-40f4-85be-b9d6f14ed0b1")
+		(property "Reference" "#PWR015"
+			(at 200.66 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9258,19 +9000,18 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 276.225 112.395 0)
+		(property "Value" "GND"
+			(at 200.66 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 278.13 118.11 0)
+			(at 200.66 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9281,7 +9022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 118.11 0)
+			(at 200.66 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9291,8 +9032,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 278.13 118.11 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9303,19 +9044,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f660c49-fd3c-4168-aeed-a53ca4be28b0")
+			(uuid "111703b2-f824-43ec-bb01-90742291a9a4")
 		)
 		(instances
 			(project "Seed3-DevKit-Eurorack-Rev3"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#SUPPLY03")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:POT_9MM_SNAP-IN__SILK_PIP")
+		(lib_id "PartsFromEagle:POT_9MM_SNAP-IN")
 		(at 124.46 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -9347,7 +9088,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
+		(property "Footprint" "PartsFromEagle:9MM_SNAP-IN_POT_SILK"
 			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9369,7 +9110,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9399,8 +9140,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 300.99 52.07 90)
+		(lib_id "power:+3.3V")
+		(at 111.76 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9408,31 +9149,110 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52801d8e-fb77-4f5d-a10c-42386f4d3b80")
+		(property "Reference" "#PWR065"
+			(at 111.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 111.76 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 111.76 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d54bcf1-53b4-44c4-9e41-f0ecc7391775")
+		)
+		(instances
+			(project "Seed3-DevKit-Eurorack-Rev3"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 300.99 52.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5296c535-83a3-4626-ae0f-b0cf445b8d0c")
 		(property "Reference" "R3"
-			(at 299.4914 55.88 0)
+			(at 298.45 50.165 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "270R"
-			(at 304.292 55.88 0)
+			(at 298.45 53.975 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 300.99 52.07 0)
+			(at 299.974 51.816 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9453,7 +9273,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 300.99 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9480,7 +9300,163 @@
 		)
 	)
 	(symbol
-		(lib_id "Electrosmith-Interface:STEREO_JACK")
+		(lib_id "power:+3.3V")
+		(at 337.82 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53878ec2-01f7-4120-b640-424cd80f7218")
+		(property "Reference" "#PWR062"
+			(at 337.82 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 337.82 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 337.82 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df4a8ae7-fa26-459a-bb36-477a49238374")
+		)
+		(instances
+			(project "Seed3-DevKit-Eurorack-Rev3"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 347.98 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54952911-d0e2-4c6d-9692-e976ab2b0fac")
+		(property "Reference" "#PWR018"
+			(at 347.98 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 347.98 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 347.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e3563ef-c99b-4f31-b429-9135f94f55b1")
+		)
+		(instances
+			(project "Seed3-DevKit-Eurorack-Rev3"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PartsFromEagle:STEREO_EURO_JACK")
 		(at 370.84 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -9492,7 +9468,7 @@
 		(fields_autoplaced yes)
 		(uuid "57effbcb-2e52-471a-997e-62d0bc4faad4")
 		(property "Reference" "J_MIDI_THRU1"
-			(at 377.19 62.865 0)
+			(at 377.19 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9513,7 +9489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Electrosmith-Interface:STEREO_JACK_3.5MM"
+		(property "Footprint" "PartsFromEagle:STEREO_EURO_JACK_3.5MM"
 			(at 370.84 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9565,8 +9541,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 261.62 64.77 0)
+		(lib_id "power:GND")
+		(at 111.76 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9574,31 +9550,108 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57f29d20-8c19-43d1-b1f2-a231567fa18f")
+		(property "Reference" "#PWR024"
+			(at 111.76 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5af74b34-a2f6-4e10-97d7-038b395c1808")
+		)
+		(instances
+			(project "Seed3-DevKit-Eurorack-Rev3"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 261.62 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "59fe149b-6e9a-4f4e-b45b-5577a55a4136")
 		(property "Reference" "R4"
-			(at 257.81 63.2714 0)
+			(at 261.62 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "220R"
-			(at 257.81 68.072 0)
+			(at 261.62 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 261.62 64.77 0)
+			(at 261.874 63.754 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9619,7 +9672,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 261.62 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9646,8 +9699,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:SparkFun_GND")
-		(at 363.22 87.63 0)
+		(lib_id "power:GND")
+		(at 165.1 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9655,9 +9708,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5ad320ce-5e08-4a72-bf2f-53fe5795266a")
-		(property "Reference" "#GND026"
-			(at 363.22 87.63 0)
+		(fields_autoplaced yes)
+		(uuid "5a9d4725-3a17-45a7-806e-075c475fd147")
+		(property "Reference" "#PWR014"
+			(at 165.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9668,18 +9722,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 360.68 90.17 0)
+			(at 165.1 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 87.63 0)
+			(at 165.1 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9690,7 +9743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 87.63 0)
+			(at 165.1 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9700,8 +9753,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 363.22 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9712,20 +9765,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "38b25ac0-becd-4413-9238-ba5c946f90ff")
+			(uuid "72cccaa6-473a-4d85-806a-42e85aa088dd")
 		)
 		(instances
 			(project "Seed3-DevKit-Eurorack-Rev3"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#GND026")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 358.14 78.74 0)
+		(lib_id "Device:R_US")
+		(at 358.14 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9735,29 +9788,27 @@
 		(dnp no)
 		(uuid "5c9b03c6-a5d4-4c4e-91fa-af6aae0dbc40")
 		(property "Reference" "R59"
-			(at 354.33 77.2414 0)
+			(at 358.14 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "10R"
-			(at 354.33 82.042 0)
+			(at 358.14 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 358.14 78.74 0)
+			(at 358.394 77.724 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9778,7 +9829,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 358.14 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9805,8 +9856,86 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 62.23 146.05 90)
+		(lib_id "power:GND")
+		(at 363.22 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5de82422-e4c2-4a5d-9f6d-f23f2006f2dc")
+		(property "Reference" "#PWR017"
+			(at 363.22 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 363.22 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 363.22 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e666074f-ec21-4bc0-a55d-93f8f99a1cdd")
+		)
+		(instances
+			(project "Seed3-DevKit-Eurorack-Rev3"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 62.23 146.05 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9816,7 +9945,7 @@
 		(dnp no)
 		(uuid "5e1a1bb7-bdff-4fbe-af6e-2ec13c1976a0")
 		(property "Reference" "R53"
-			(at 60.7314 149.86 0)
+			(at 62.992 148.844 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9827,7 +9956,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 65.532 149.86 0)
+			(at 63.5 139.446 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9838,7 +9967,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 62.23 146.05 0)
+			(at 61.214 145.796 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9859,7 +9988,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 62.23 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9955,6 +10084,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" "NPN"
+			(at 275.59 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 275.59 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c327ec73-f211-4542-a69c-f848ac7d7826")
 		)
@@ -9974,8 +10125,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402")
-		(at 311.15 54.61 180)
+		(lib_id "Device:C")
+		(at 311.15 53.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9983,31 +10134,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "61bea9c2-6930-4240-8920-1d842427d2ce")
 		(property "Reference" "C1"
-			(at 306.451 51.054 90)
+			(at 314.96 51.435 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "100NF"
-			(at 314.071 48.514 90)
+			(at 314.96 55.245 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 311.15 54.61 0)
+			(at 310.1848 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10018,7 +10170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 54.61 0)
+			(at 311.15 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10028,8 +10180,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 311.15 54.61 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 311.15 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10055,7 +10207,85 @@
 		)
 	)
 	(symbol
-		(lib_id "parts-for-kicad:TOGGLE_ON-ON_PIP3")
+		(lib_id "power:GND")
+		(at 358.14 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "655b0d0f-e550-4173-9f0f-b77a42696cbc")
+		(property "Reference" "#PWR020"
+			(at 358.14 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 358.14 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 358.14 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be408e12-28d4-4dc1-b49c-0a0d5272b5d1")
+		)
+		(instances
+			(project "Seed3-DevKit-Eurorack-Rev3"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PartsFromEagle:TOGGLE_ON-ON")
 		(at 50.8 80.01 270)
 		(unit 1)
 		(body_style 1)
@@ -10087,7 +10317,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:TOGGLE_ON-ON_SILK"
+		(property "Footprint" "PartsFromEagle:TOGGLE_ON_ON_2"
 			(at 50.8 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10208,6 +10438,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" "NPN"
+			(at 367.03 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 367.03 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "680a5d5b-ae75-43d0-bfd1-60a99061869b")
 		)
@@ -10227,8 +10479,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 57.15 151.13 90)
+		(lib_id "Device:R_US")
+		(at 57.15 151.13 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10238,7 +10490,7 @@
 		(dnp no)
 		(uuid "6fa05f86-e835-4b5e-96a8-9cebbd4ee6ef")
 		(property "Reference" "R52"
-			(at 55.6514 154.94 0)
+			(at 57.912 153.924 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10249,7 +10501,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 60.452 154.94 0)
+			(at 58.42 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10260,7 +10512,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 57.15 151.13 0)
+			(at 56.134 150.876 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10281,7 +10533,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 57.15 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10308,7 +10560,85 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:POT_9MM_SNAP-IN__SILK_PIP")
+		(lib_id "power:+3.3V")
+		(at 300.99 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fbeeae6-ce1a-4eed-9e08-a952977caf98")
+		(property "Reference" "#PWR060"
+			(at 300.99 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 300.99 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 300.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f60edfa0-47a3-41d1-aba4-a7ba23677ec1")
+		)
+		(instances
+			(project "Seed3-DevKit-Eurorack-Rev3"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PartsFromEagle:POT_9MM_SNAP-IN")
 		(at 105.41 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -10340,7 +10670,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
+		(property "Footprint" "PartsFromEagle:9MM_SNAP-IN_POT_SILK"
 			(at 105.41 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10362,7 +10692,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 105.41 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10392,8 +10722,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3")
-		(at 287.02 55.88 0)
+		(lib_id "power:GND")
+		(at 266.7 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10401,9 +10731,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "78240978-4ef5-4063-96c3-cb5b665904ab")
-		(property "Reference" "#SUPPLY01"
-			(at 287.02 55.88 0)
+		(fields_autoplaced yes)
+		(uuid "7333bd01-94ab-4697-8e24-482df7f8ffaf")
+		(property "Reference" "#PWR021"
+			(at 266.7 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10413,19 +10744,18 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 285.115 50.165 0)
+		(property "Value" "GND"
+			(at 266.7 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 55.88 0)
+			(at 266.7 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10436,7 +10766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 55.88 0)
+			(at 266.7 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10446,86 +10776,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 287.02 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7be9f680-81e2-426f-9656-631f0acd37bd")
-		)
-		(instances
-			(project "Seed3-DevKit-Eurorack-Rev3"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#SUPPLY01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3")
-		(at 300.99 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7a2de68e-6835-4df1-8a7e-a32834fb6ccd")
-		(property "Reference" "#SUPPLY02"
-			(at 300.99 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 299.085 36.195 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 300.99 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 300.99 41.91 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10536,19 +10788,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab81d855-2243-45a5-bc37-f0f7a4454a9e")
+			(uuid "1b88708c-6626-48b3-83d2-b33d2f48756c")
 		)
 		(instances
 			(project "Seed3-DevKit-Eurorack-Rev3"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#SUPPLY02")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:POT_9MM_SNAP-IN__SILK_PIP")
+		(lib_id "PartsFromEagle:POT_9MM_SNAP-IN")
 		(at 142.24 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -10580,7 +10832,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
+		(property "Footprint" "PartsFromEagle:9MM_SNAP-IN_POT_SILK"
 			(at 142.24 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10602,7 +10854,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 142.24 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10632,7 +10884,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Electrosmith-Interface:EURO_JACK")
+		(lib_id "PartsFromEagle:EURO_JACK")
 		(at 237.49 144.78 0)
 		(mirror y)
 		(unit 1)
@@ -10665,7 +10917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Electrosmith-Interface:S_JACK"
+		(property "Footprint" "PartsFromEagle:EURO_JACK_3.5MM"
 			(at 237.49 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10689,6 +10941,17 @@
 		)
 		(property "Description" ""
 			(at 237.49 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "Eurorack Jack"
+			(at 237.49 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10717,8 +10980,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 67.31 140.97 90)
+		(lib_id "Device:R_US")
+		(at 67.31 140.97 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10728,7 +10991,7 @@
 		(dnp no)
 		(uuid "821f30ab-4f55-4a58-be82-f447236b3ebe")
 		(property "Reference" "R54"
-			(at 65.8114 144.78 0)
+			(at 68.072 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10739,7 +11002,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 70.612 144.78 0)
+			(at 68.58 134.366 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10750,7 +11013,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 67.31 140.97 0)
+			(at 66.294 140.716 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10771,7 +11034,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 67.31 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10798,7 +11061,85 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:POT_9MM_SNAP-IN__SILK_PIP")
+		(lib_id "power:GND")
+		(at 311.15 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "844d8354-03dd-453c-937e-b69f96a57a02")
+		(property "Reference" "#PWR054"
+			(at 311.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 311.15 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 311.15 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "610d9063-ac47-4cf8-91ce-f270efb99aa6")
+		)
+		(instances
+			(project "Seed3-DevKit-Eurorack-Rev3"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PartsFromEagle:POT_9MM_SNAP-IN")
 		(at 85.09 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -10830,7 +11171,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
+		(property "Footprint" "PartsFromEagle:9MM_SNAP-IN_POT_SILK"
 			(at 85.09 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10852,7 +11193,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 85.09 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10882,8 +11223,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 257.81 142.24 0)
+		(lib_id "Device:R_US")
+		(at 257.81 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10891,31 +11232,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "920a88d2-9dc7-49d8-abcd-2fad80600c94")
 		(property "Reference" "R17"
-			(at 254 140.7414 0)
+			(at 257.81 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "100K"
-			(at 254 145.542 0)
+			(at 257.81 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 257.81 142.24 0)
+			(at 258.064 141.224 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10936,7 +11276,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 257.81 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10963,6 +11303,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 93.98 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9548d5ec-b544-45e5-a7ce-6b71574e188e")
+		(property "Reference" "#PWR011"
+			(at 93.98 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4da8c600-0054-4458-abb1-c4bb6c724b8e")
+		)
+		(instances
+			(project "Seed3-DevKit-Eurorack-Rev3"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148WS")
 		(at 269.24 71.12 270)
 		(unit 1)
@@ -10972,27 +11390,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "979bc7e6-96d1-4563-8a60-0c634b119807")
 		(property "Reference" "D3"
-			(at 271.78 68.58 0)
+			(at 266.7 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "NSR1020MW2T3G"
-			(at 266.7 73.406 90)
+			(at 266.7 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
@@ -11066,8 +11485,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 168.91 146.05 0)
+		(lib_id "Device:R_US")
+		(at 168.91 146.05 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11075,31 +11494,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a06ef429-843c-4c03-9143-85b5dcc7fc63")
 		(property "Reference" "R43"
-			(at 165.1 144.5514 0)
+			(at 168.91 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "2K"
-			(at 165.1 149.352 0)
+			(at 168.91 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 168.91 146.05 0)
+			(at 169.164 145.034 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11120,7 +11538,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 168.91 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -11233,7 +11651,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:POT_9MM_SNAP-IN__SILK_PIP")
+		(lib_id "PartsFromEagle:POT_9MM_SNAP-IN")
 		(at 180.34 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -11265,7 +11683,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
+		(property "Footprint" "PartsFromEagle:9MM_SNAP-IN_POT_SILK"
 			(at 180.34 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11287,7 +11705,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 180.34 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11317,8 +11735,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 287.02 80.01 0)
+		(lib_id "power:GND")
+		(at 43.18 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11326,9 +11744,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a76f4ff2-a81e-4663-bcee-f1c0e36afa46")
-		(property "Reference" "#GND06"
-			(at 287.02 80.01 0)
+		(fields_autoplaced yes)
+		(uuid "af97a93d-390d-4189-a85d-ad17a02c7064")
+		(property "Reference" "#PWR012"
+			(at 43.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11339,18 +11758,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 82.55 0)
+			(at 43.18 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 80.01 0)
+			(at 43.18 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11361,7 +11779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 80.01 0)
+			(at 43.18 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11371,86 +11789,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 287.02 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "194e46f6-1349-40ae-82a5-2e1eb146f232")
-		)
-		(instances
-			(project "Seed3-DevKit-Eurorack-Rev3"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#GND06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 43.18 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aba2c71f-6389-4baa-99b4-6b47e5578258")
-		(property "Reference" "#GND028"
-			(at 43.18 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 85.09 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11461,98 +11801,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f887df6-ae2e-415e-93bb-7dbd4d0213f7")
+			(uuid "682b8611-49b6-43e9-ac60-eca41ac5e4e6")
 		)
 		(instances
 			(project "Seed3-DevKit-Eurorack-Rev3"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#GND028")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 110.49 199.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ac22beae-aa68-4c91-b5a7-93eadfdfd68a")
-		(property "Reference" "#GND03"
-			(at 110.49 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3817a41c-cf0e-42a6-a551-5939b1ce6deb")
-		)
-		(instances
-			(project "Seed3-DevKit-Eurorack-Rev3"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#GND03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "parts-for-kicad:TAC_SWITCH_PTH_SILK")
-		(at 158.75 81.28 0)
+		(lib_id "PartsFromEagle:TAC_SWITCH")
+		(at 157.48 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11562,7 +11824,7 @@
 		(dnp no)
 		(uuid "b029966d-b6ed-42c9-920d-c0621e88b72d")
 		(property "Reference" "SW1"
-			(at 156.21 74.93 0)
+			(at 154.94 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11573,7 +11835,7 @@
 			)
 		)
 		(property "Value" "PTH Mini Button"
-			(at 151.13 72.39 0)
+			(at 149.86 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11583,8 +11845,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:TL1105SPF250Q_SILK"
-			(at 158.75 81.28 0)
+		(property "Footprint" "PartsFromEagle:TL1105SPF250Q_SILK"
+			(at 157.48 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11595,7 +11857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 81.28 0)
+			(at 157.48 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11606,7 +11868,29 @@
 			)
 		)
 		(property "Description" "Momentary Switch Button commonly used for reset or general input. Spark Fun Electronics SKU : COM-00097"
-			(at 158.75 81.28 0)
+			(at 157.48 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "Mini Button"
+			(at 157.48 89.154 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TL1105SPF250Q"
+			(at 157.48 90.678 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11638,7 +11922,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Electrosmith-Interface:EURO_JACK")
+		(lib_id "PartsFromEagle:EURO_JACK")
 		(at 328.93 144.78 0)
 		(mirror y)
 		(unit 1)
@@ -11651,7 +11935,7 @@
 		(fields_autoplaced yes)
 		(uuid "b43e8439-40a3-4ab1-8fac-8807f38f55f6")
 		(property "Reference" "J_GATE_IN_2"
-			(at 327.4441 138.43 0)
+			(at 327.4441 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11670,7 +11954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Electrosmith-Interface:S_JACK"
+		(property "Footprint" "PartsFromEagle:EURO_JACK_3.5MM"
 			(at 328.93 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11694,6 +11978,17 @@
 		)
 		(property "Description" ""
 			(at 328.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "Eurorack Jack"
+			(at 328.93 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11722,8 +12017,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3")
-		(at 337.82 35.56 0)
+		(lib_id "power:+3.3V")
+		(at 369.57 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11731,9 +12026,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b5ecb6dd-4d5a-448b-b5b6-7e48835d1f28")
-		(property "Reference" "#SUPPLY04"
-			(at 337.82 35.56 0)
+		(fields_autoplaced yes)
+		(uuid "b70247ea-1ba4-4e04-a98c-b072000f6a7b")
+		(property "Reference" "#PWR064"
+			(at 369.57 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11743,19 +12039,18 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 335.915 29.845 0)
+		(property "Value" "+3.3V"
+			(at 369.57 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 337.82 35.56 0)
+			(at 369.57 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11766,7 +12061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 35.56 0)
+			(at 369.57 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11776,8 +12071,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 337.82 35.56 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 369.57 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11788,20 +12083,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee411b2e-7f91-4cd9-9406-f8c0ccc23b22")
+			(uuid "05ad51bf-f4c9-4c1d-9115-c96eb20404fc")
 		)
 		(instances
 			(project "Seed3-DevKit-Eurorack-Rev3"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#SUPPLY04")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 358.14 151.13 90)
+		(lib_id "power:+3.3V")
+		(at 278.13 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11809,31 +12104,110 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba16941b-86ef-4549-9702-be02f5eac540")
+		(property "Reference" "#PWR063"
+			(at 278.13 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 278.13 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 278.13 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a422eb86-5324-478a-a66b-8fb067ef6022")
+		)
+		(instances
+			(project "Seed3-DevKit-Eurorack-Rev3"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 358.14 151.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bc1ac038-31a7-4e89-85f0-98bd4a6f8c4d")
 		(property "Reference" "R28"
-			(at 356.6414 154.94 0)
+			(at 355.6 149.225 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "1M"
-			(at 361.442 154.94 0)
+			(at 355.6 153.035 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 358.14 151.13 0)
+			(at 357.124 150.876 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11854,7 +12228,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 358.14 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11881,85 +12255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 195.58 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "be9d9ac6-2241-424a-b043-311f7ab923b3")
-		(property "Reference" "#GND041"
-			(at 195.58 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7718fb9e-7862-4f50-95be-5c7a80c249fb")
-		)
-		(instances
-			(project "Seed3-DevKit-Eurorack-Rev3"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#GND041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:POT_9MM_SNAP-IN__SILK_PIP")
+		(lib_id "PartsFromEagle:POT_9MM_SNAP-IN")
 		(at 161.29 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -11991,7 +12287,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
+		(property "Footprint" "PartsFromEagle:9MM_SNAP-IN_POT_SILK"
 			(at 161.29 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12013,7 +12309,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 161.29 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12043,8 +12339,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:SparkFun_GND")
-		(at 266.7 166.37 0)
+		(lib_id "power:GND")
+		(at 195.58 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12052,9 +12348,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c00804ef-20ec-4ea2-9b06-a5f4613a1519")
-		(property "Reference" "#GND04"
-			(at 266.7 166.37 0)
+		(fields_autoplaced yes)
+		(uuid "bf594888-381d-4bcf-83d4-ad5ef2a7ee75")
+		(property "Reference" "#PWR022"
+			(at 195.58 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12065,18 +12362,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 168.91 0)
+			(at 195.58 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 166.37 0)
+			(at 195.58 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12087,7 +12383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 166.37 0)
+			(at 195.58 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12097,8 +12393,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 266.7 166.37 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12109,20 +12405,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "b71c6638-55b8-4798-8612-62cbcb16f148")
+			(uuid "59d9c43c-a86f-4c33-9baf-f9b50612b70b")
 		)
 		(instances
 			(project "Seed3-DevKit-Eurorack-Rev3"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#GND04")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 349.25 142.24 0)
+		(lib_id "Device:R_US")
+		(at 349.25 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12130,31 +12426,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c463d527-0c67-4d38-959c-2fbbc34ef3de")
 		(property "Reference" "R24"
-			(at 345.44 140.7414 0)
+			(at 349.25 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "100K"
-			(at 345.44 145.542 0)
+			(at 349.25 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 349.25 142.24 0)
+			(at 349.504 141.224 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12175,7 +12470,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 349.25 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12202,8 +12497,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 52.07 156.21 90)
+		(lib_id "Device:R_US")
+		(at 52.07 156.21 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12213,7 +12508,7 @@
 		(dnp no)
 		(uuid "c6eba874-3ab6-4377-b9f5-4f60fd51d766")
 		(property "Reference" "R51"
-			(at 50.5714 160.02 0)
+			(at 52.832 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12224,7 +12519,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 55.372 160.02 0)
+			(at 53.34 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12235,7 +12530,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 52.07 156.21 0)
+			(at 51.054 155.956 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12256,7 +12551,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 52.07 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -12283,86 +12578,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:SparkFun_GND")
-		(at 349.25 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c9afb7cb-f3f7-436f-bbde-9c42d2fadf47")
-		(property "Reference" "#GND017"
-			(at 349.25 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 346.71 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 349.25 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 349.25 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "08936852-a051-413d-899d-ae410d2b864f")
-		)
-		(instances
-			(project "Seed3-DevKit-Eurorack-Rev3"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#GND017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 167.64 179.07 0)
+		(lib_id "Device:R_US")
+		(at 167.64 179.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12372,29 +12589,27 @@
 		(dnp no)
 		(uuid "d7ce2f48-2cdd-42e4-be9d-c2e876843b3f")
 		(property "Reference" "R44"
-			(at 163.83 177.5714 0)
+			(at 162.814 177.546 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "2K"
-			(at 168.91 177.292 0)
+			(at 171.196 177.546 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 167.64 179.07 0)
+			(at 167.894 178.054 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12415,7 +12630,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 167.64 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -12442,8 +12657,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402")
-		(at 359.41 44.45 270)
+		(lib_id "power:GND")
+		(at 195.58 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12451,31 +12666,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "df38ac6b-fd4c-4701-8e9d-123e859a4ec0")
-		(property "Reference" "C47"
-			(at 359.791 45.974 0)
+		(fields_autoplaced yes)
+		(uuid "db148f96-02a1-4fb6-af3a-9d1892fabcf2")
+		(property "Reference" "#PWR023"
+			(at 195.58 184.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Value" "100NF"
-			(at 354.838 45.974 0)
+		(property "Value" "GND"
+			(at 195.58 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 359.41 44.45 0)
+		(property "Footprint" ""
+			(at 195.58 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12486,7 +12701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 44.45 0)
+			(at 195.58 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12496,8 +12711,163 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 359.41 44.45 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "987d6553-3e8e-4aa5-b86e-6b6a5ebb6807")
+		)
+		(instances
+			(project "Seed3-DevKit-Eurorack-Rev3"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 95.25 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de02e88b-9362-4c1e-a71e-bef6774f83d0")
+		(property "Reference" "#PWR059"
+			(at 95.25 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 95.25 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 95.25 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52f9eade-7791-48c0-8231-7f042add3fab")
+		)
+		(instances
+			(project "Seed3-DevKit-Eurorack-Rev3"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 356.87 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df38ac6b-fd4c-4701-8e9d-123e859a4ec0")
+		(property "Reference" "C47"
+			(at 356.87 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "100NF"
+			(at 356.87 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 353.06 46.6852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 356.87 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12523,8 +12893,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 200.66 88.9 0)
+		(lib_id "power:GND")
+		(at 287.02 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12532,9 +12902,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e16c0450-154a-42de-b740-18481bebf235")
-		(property "Reference" "#GND08"
-			(at 200.66 88.9 0)
+		(fields_autoplaced yes)
+		(uuid "e04e7e92-cdbb-4779-bfea-ed268ddfcf14")
+		(property "Reference" "#PWR016"
+			(at 287.02 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12545,18 +12916,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 91.44 0)
+			(at 287.02 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 88.9 0)
+			(at 287.02 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12567,7 +12937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 88.9 0)
+			(at 287.02 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12577,8 +12947,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 200.66 88.9 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 287.02 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12589,20 +12959,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "914bf161-91ef-4c4f-82cb-dd39259625e9")
+			(uuid "c494afb0-dc18-4618-bc7c-4d26864fbb5d")
 		)
 		(instances
 			(project "Seed3-DevKit-Eurorack-Rev3"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#GND08")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 167.64 168.91 0)
+		(lib_id "Device:R_US")
+		(at 167.64 168.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12612,29 +12982,27 @@
 		(dnp no)
 		(uuid "e19f6581-557a-430c-92ad-213aec6dd2e8")
 		(property "Reference" "R40"
-			(at 163.83 167.4114 0)
+			(at 162.814 166.624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "2K"
-			(at 168.91 167.132 0)
+			(at 170.688 166.624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 167.64 168.91 0)
+			(at 167.894 167.894 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12655,7 +13023,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 167.64 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -12682,164 +13050,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3")
-		(at 57.15 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e2d6b1e4-6d71-47d2-8bc5-4a5ca45bc4d4")
-		(property "Reference" "#SUPPLY014"
-			(at 57.15 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 55.245 125.095 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "daffb999-9001-490b-a93d-b606fa133eed")
-		)
-		(instances
-			(project "Seed3-DevKit-Eurorack-Rev3"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#SUPPLY014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 195.58 179.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e6d00521-aced-480f-8d1b-ba69f17b3d33")
-		(property "Reference" "#GND022"
-			(at 195.58 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1b82fc6c-c306-4830-9e8c-d111fb7009b5")
-		)
-		(instances
-			(project "Seed3-DevKit-Eurorack-Rev3"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#GND022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 337.82 43.18 90)
+		(lib_id "Device:R_US")
+		(at 337.82 43.18 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12849,29 +13061,29 @@
 		(dnp no)
 		(uuid "e769aeac-896c-4a11-be41-3034923575c4")
 		(property "Reference" "R6"
-			(at 336.3214 46.99 0)
+			(at 339.09 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "10R"
-			(at 341.122 46.99 0)
+			(at 339.09 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 337.82 43.18 0)
+			(at 336.804 42.926 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12892,7 +13104,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 337.82 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12919,7 +13131,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:POT_9MM_SNAP-IN__SILK_PIP")
+		(lib_id "PartsFromEagle:POT_9MM_SNAP-IN")
 		(at 62.23 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -12951,7 +13163,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:9MM_SNAP-IN_POT_SILK"
+		(property "Footprint" "PartsFromEagle:9MM_SNAP-IN_POT_SILK"
 			(at 62.23 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12973,7 +13185,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9mm vertical snap-in pot, Alpha / Panasonic style"
 			(at 62.23 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13003,86 +13215,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 311.15 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e93d31f6-c820-414f-8443-27357e529fb4")
-		(property "Reference" "#GND05"
-			(at 311.15 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 308.61 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 311.15 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d0d364d-3261-487a-80df-035abc0f72ca")
-		)
-		(instances
-			(project "Seed3-DevKit-Eurorack-Rev3"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
-					(reference "#GND05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 46.99 161.29 90)
+		(lib_id "Device:R_US")
+		(at 46.99 161.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13092,7 +13226,7 @@
 		(dnp no)
 		(uuid "f184b016-9982-4045-a5d0-f56befeb2a70")
 		(property "Reference" "R50"
-			(at 45.4914 165.1 0)
+			(at 48.006 163.576 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13103,7 +13237,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 50.292 165.1 0)
+			(at 48.514 154.432 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13114,7 +13248,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 46.99 161.29 0)
+			(at 45.974 161.036 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13135,7 +13269,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 46.99 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -13162,7 +13296,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Electrosmith-Interface:STEREO_JACK")
+		(lib_id "PartsFromEagle:STEREO_EURO_JACK")
 		(at 370.84 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -13174,7 +13308,7 @@
 		(fields_autoplaced yes)
 		(uuid "f51d54b6-36de-419d-bf81-64c12f0c0d65")
 		(property "Reference" "J_MIDI_OUT1"
-			(at 377.19 80.645 0)
+			(at 377.19 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13195,7 +13329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Electrosmith-Interface:STEREO_JACK_3.5MM"
+		(property "Footprint" "PartsFromEagle:STEREO_EURO_JACK_3.5MM"
 			(at 370.84 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13247,6 +13381,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 287.02 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f781b0ab-430c-4051-b091-fc5de151bfcc")
+		(property "Reference" "#PWR061"
+			(at 287.02 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 287.02 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 287.02 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e986e682-b1a5-41da-8511-54b181f22546")
+		)
+		(instances
+			(project "Seed3-DevKit-Eurorack-Rev3"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/0fd2c796-fc28-4dbb-a19a-be32e6f577a0"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 186.69 146.05 0)
 		(mirror y)
@@ -13259,7 +13471,7 @@
 		(dnp no)
 		(uuid "fb9cfa66-a36b-46e9-847d-b76ed2f8a0f7")
 		(property "Reference" "LED2"
-			(at 188.2775 139.7 0)
+			(at 186.69 142.494 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13269,7 +13481,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 188.2775 142.24 0)
+			(at 186.69 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13301,6 +13513,17 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 186.69 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 186.69 146.05 0)
 			(hide yes)
 			(show_name no)
